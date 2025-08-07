@@ -1,0 +1,59 @@
+.content-bottom-line {
+    border-bottom: 1px solid $neutral_color-300;
+}
+
+/* 表頭 */
+.header {
+    background: transparent url("../../imag/hero.png") no-repeat center center / cover;
+    text-align: center;
+}
+
+.pageTitle {
+    padding: 151px 0;
+}
+
+/* 品牌歷程 */
+.history {
+    list-style-type: disc;
+    padding-left: $spacing-l;
+}
+
+.history-items span {
+    padding-left: 8px;
+    margin-left: 8px;
+    border-left: 1px solid $neutral_color-900;
+}
+
+/* 品牌理念 */
+.brandConcept-items {
+    border-left: 3px solid $neutral_color-300;
+}
+
+/* 品牌小故事 */
+.brandStory-items {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: $primary_color-400;
+}
+
+.brandStory-items i {
+    color: $primary_color-400;
+    margin-right: 10.5px;
+}
+
+@media (max-width: 767px) {
+    /* 表頭 */
+    .header {
+        background-image: url("../../imag/hero-sm.jpg");
+    }
+
+    .pageTitle {
+        padding: 87px 0;
+    }
+
+    /* 產品介紹標題行距 */
+    .h6-md-story {
+        font-size: $tw-headings-h6;
+        line-height: $spacing-l;
+    }
+}
