@@ -2,7 +2,12 @@
 @import "./helper/variable";
 @import "./base/reset";
 @import "./base/base";
-
+@import "./utils/background";
+@import "./utils/borders";
+@import "./utils/display";
+@import "./utils/sizing";
+@import "./utils/spacing";
+@import "./utils/text";
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
