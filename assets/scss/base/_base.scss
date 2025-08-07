@@ -50,19 +50,3 @@ a:hover {
 .container-fluid {
   width: $container-fluid;
 }
-
-/* 表頭 */
-.navigationBar-link {
-  font-weight: $tw-weight-500;
-  text-decoration: none;
-}
-
-.member-login {
-  display: block;
-  padding: $spacing-s;
-  margin-left: auto;
-}
-
-.member-login img {
-  width: 18px;
-}
