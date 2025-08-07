@@ -1,0 +1,136 @@
+/* 文字 */
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: $tw-heading-line-height;
+  font-weight: $tw-weight-700;
+}
+
+.h1 {
+  font-size: $tw-headings-h1;  
+}
+
+.h2 {
+  font-size: $tw-headings-h2;
+}
+
+.h3 {
+  font-size: $tw-headings-h3;
+}
+
+.h4 {
+  font-size: $tw-headings-h4;
+}
+
+.h5 {
+  font-size: $tw-headings-h5;
+}
+
+.h6 {
+  font-size: $tw-headings-h6;
+}
+
+@media (max-width:768px) {
+  .h3-md {
+    font-size: $tw-headings-h3;
+  }
+
+  .h4-md {
+    font-size: $tw-headings-h4;
+  }
+
+  .h5-md {
+    font-size: $tw-headings-h5;
+  }
+
+  .h6-md {
+    font-size: $tw-headings-h6;
+  }
+}
+
+@media (max-width:576px) {
+  .h3-sm {
+    font-size: $tw-headings-h3;
+  }
+
+  .h4-sm {
+    font-size: $tw-headings-h4;
+  }
+
+  .h5-sm {
+    font-size: $tw-headings-h5;
+  }
+
+  .h6-sm {
+    font-size: $tw-headings-h6;
+  }
+}
+
+/* 字重*/
+.tw-weight-400 {
+  font-weight: 400;
+}
+
+.tw-weight-500 {
+  font-weight: 500;
+}
+
+.tw-weight-600 {
+  font-weight: 600;
+}
+
+.tw-weight-700 {
+  font-weight: 700;
+}
+
+/* 字體樣式 */
+.tw-label-md {
+  font-size: $tw-label-md;
+  font-weight: $tw-weight-500;
+}
+
+[class*="tw-paragraph-"] {
+  font-weight: $tw-weight-400;
+}
+
+.tw-paragraph-md {
+  font-size: $tw-paragraph-md;  
+}
+
+.tw-paragraph-sm {
+  font-size: $tw-paragraph-sm;
+}
+
+/* 字體顏色 */
+.text-neutral-white {
+  color: $neutral_color-white;
+}
+
+.text-neutral-500 {
+  color: $neutral_color-500;
+}
+
+.text-neutral-600 {
+  color: $neutral_color-600;
+}
+
+.text-neutral-900 {
+  color: $neutral_color-900;
+}
+
+.text-primary-400 {
+  color: $primary_color-400;
+}
+
+.text-danger-300 {
+  color: $danger_color-300;
+}
+
+/* 字對齊方式 */
+.text-center {
+  text-align: center;
+}
+
+@media (max-width:768px) {
+ .text-md-left {
+  text-align: left;
+ }  
+}
