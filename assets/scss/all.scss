@@ -1,15 +1,15 @@
 @import "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap";
 @import "./helper/variable";
-@import "./base/reset";
-@import "./base/base";
 @import "./utils/background";
 @import "./utils/borders";
 @import "./utils/display";
 @import "./utils/sizing";
 @import "./utils/spacing";
 @import "./utils/text";
+@import "./base/reset";
+@import "./base/base";
+@import "./components/breadcrumb";
+@import "./components/button";
 @import './layout/header.scss';
 @import './layout/footer.scss';
-
-
 @import './pages/index.scss';
