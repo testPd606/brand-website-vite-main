@@ -5,7 +5,7 @@
 }
 
 *.prohibit {
-  color: var(--neutral_color-600);
+  color: $neutral_color-600;
   pointer-events: none;
   cursor: not-allowed;
 }
@@ -15,10 +15,10 @@
 }
 
 body {
-    font-family: var(--global-font);
-    line-height: var(--tw-label-line-height);
-    letter-spacing: var(--tw-letter-spacing);
-    color: var(--neutral_color-900);
+    font-family: $global-font;
+    line-height: $tw-label-line-height;
+    letter-spacing: $tw-letter-spacing;
+    color: $neutral_color-900;
 }
 
 img {
@@ -28,38 +28,38 @@ img {
 }
 
 a {
-  color: var(--neutral_color-900);
+  color: $neutral_color-900;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--primary_color-500);
+  color: $primary_color-500;
 }
 
 /* 容器 */
 [class*="container"] {
-  padding-left: var(--spacing-s);
-  padding-right: var(--spacing-s);
+  padding-left: $spacing-s;
+  padding-right: $spacing-s;
 }
 
 .container {
-  max-width: var(--container);
+  max-width: $container;
   margin: 0 auto;
 }
 
 .container-fluid {
-  width: var(--container-fluid);
+  width: $container-fluid;
 }
 
 /* 表頭 */
 .navigationBar-link {
-  font-weight: var(--tw-weight-500);
+  font-weight: $tw-weight-500;
   text-decoration: none;
 }
 
 .member-login {
   display: block;
-  padding: var(--spacing-s);
+  padding: $spacing-s;
   margin-left: auto;
 }
 
