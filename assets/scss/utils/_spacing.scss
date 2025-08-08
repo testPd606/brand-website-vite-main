@@ -76,7 +76,7 @@
   padding-bottom: $spacing-5xl;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .p-md-24 {
     padding: $spacing-l;
   }
@@ -123,7 +123,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
   .p-sm-24 {
     padding: $spacing-l;
   }
@@ -222,7 +222,7 @@
   margin-right: $spacing-xxxs-burden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .mb-md-0 {
     margin-bottom: 0;
   }
@@ -264,7 +264,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
   .mb-sm-8 {
     margin-bottom: $spacing-xs;
   }
