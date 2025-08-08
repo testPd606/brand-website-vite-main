@@ -4,7 +4,7 @@
 
 /* 表頭 */
 .header {
-    background: transparent url("../../imag/hero.png") no-repeat center center / cover;
+    background: transparent url("/assets/images/hero.png") no-repeat center center / cover;
     text-align: center;
 }
 
@@ -44,7 +44,7 @@
 @media (max-width: 767px) {
     /* 表頭 */
     .header {
-        background-image: url("../../imag/hero-sm.jpg");
+        background-image: url("/assets/images/hero-sm.jpg");
     }
 
     .pageTitle {
