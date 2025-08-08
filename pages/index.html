@@ -11,10 +11,15 @@
     <main>
         <div class="container mb-64 mb-md-40">
             <picture>
-                <source srcset="image-large.jpg" media="(max-width: 720px)">
-                <source srcset="image-medium.jpg" media="(max-width: 540px)">
-                <img src="image-small.jpg" alt="描述圖片內容">
+                <source srcset="/assets/images/banner.png" media="(max-width: 720px)">
+                <source srcset="/assets/images/banner-sm.png" media="(max-width: 540px)">
+                <img src="/assets/images/banner.png" alt="banner">
             </picture>
+            <div class="">
+                <h2 class="display-1">URBNSTEP</h2>
+                <h3 class="h3">Your Step, Your Statement</h3>
+                <button class="btn btn-primary">立即選購</button>
+            </div>
         </div>
     </main>
     <%- include('./layout/footer'); -%>
