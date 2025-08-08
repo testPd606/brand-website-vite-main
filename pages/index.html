@@ -9,17 +9,15 @@
   <body>
     <%- include('./layout/header'); -%>
     <main>
-        <div class="container mb-64 mb-md-40">
-            <picture>
-                <source srcset="/assets/images/banner.png" media="(max-width: 720px)">
-                <source srcset="/assets/images/banner-sm.png" media="(max-width: 540px)">
-                <img src="/assets/images/banner.png" alt="banner">
-            </picture>
-            <div class="">
+        <div class="container-fluid mb-64 mb-md-40">
+            <section class="product-banner">
                 <h2 class="display-1">URBNSTEP</h2>
                 <h3 class="h3">Your Step, Your Statement</h3>
                 <button class="btn btn-primary">立即選購</button>
-            </div>
+            </section>
+        </div>
+        <div class="container">
+
         </div>
     </main>
     <%- include('./layout/footer'); -%>
