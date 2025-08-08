@@ -1,9 +1,35 @@
 .productBanner {
     background: transparent url(/assets/images/banner.png) no-repeat center center / cover;
+    .productBanner-title {
+        padding: 289px 0 288px 200px;
+        h2 {
+            font-size: $display-1-font-size;
+            font-weight: $tw-weight-700;
+            color: $neutral_color-white;
+            margin-bottom: $spacing-m;
+        }
+        h3 {
+            font-size: $tw-headings-h3;
+            font-weight: $tw-weight-700;
+            color: $neutral_color-white;
+            margin-bottom: $spacing-3xl;
+        }
+    }
 }
 
 @media (max-width: 720px) {
     .productBanner {
         background-image: url(/assets/images/banner-sm.png);
+        .productBanner-title {
+            padding: 155px 24px;
+            h2 {
+                font-size: $display-2-font-size;
+                margin-bottom: $spacing-xs;
+            }
+            h3 {
+                font-size: $tw-headings-h5;
+                margin-bottom: $spacing-xl;
+            }
+        }
     }
 }
