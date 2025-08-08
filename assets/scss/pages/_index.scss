@@ -1,29 +1,9 @@
-/* 主標題 */
-.title {
-    padding: 7px 0;
-}
-
-/* 商品選單 */
-.menu-link.active {
-    color: $primary_color-400;
-}
-
-/* 分頁 */
-.page-link {
-    padding: 8px 15.5px;
-}
-
-.page-link.active {
-    background-color: $primary_color-300;
-}
-
-.page-link.disabled {
-    color: $neutral_color-600;
+.productBanner {
+    background: transparent url(/assets/images/banner.png) no-repeat center center / cover;
 }
 
 @media (max-width: 720px) {
-    /* 主標題 */
-    .title {
-        padding: 9.5px 0;
+    .productBanner {
+        background-image: url(/assets/images/banner-sm.png);
     }
 }
