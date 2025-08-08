@@ -59,8 +59,8 @@
 
 @media (max-width: 576px) {
   [class*="col-sm-"] {
-      padding-left: $spacing-xx;
-      padding-right: $spacing-xx;
+      padding-left: $spacing-xxs;
+      padding-right: $spacing-xxs;
   }
 
   .col-sm-2 {
