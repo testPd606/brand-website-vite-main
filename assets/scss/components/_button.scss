@@ -14,35 +14,37 @@
   padding-right: $spacing-l;
   cursor: pointer;
   display: block;
-}
-
-.btn:hover {
-  background-color: $neutral_color-100;
+  &:hover {
+    background-color: $neutral_color-100;
+  }
 }
 
 .btn-primary {
   background-color: $primary_color-300;
   color: $neutral_color-900;
+  &:hover {
+    background-color: $primary_color-300;
+    color: $primary_color-500;
+  }
 }
 
 .btn-dark {
   background-color: $neutral_color-900;
   color: $neutral_color-white;
-}
-
-.btn-dark:hover {
-  background-color: $neutral_color-700;
+  &:hover {
+    background-color: $neutral_color-700;
+  }
 }
 
 .btn-white {
   background-color: $neutral_color-white;
   border: 1px solid $neutral_color-900;
+  &:hover {
+    background-color: $neutral_color-900;
+    color: $neutral_color-white;
+  }
 }
 
-.btn-white:hover {
-  background-color: $neutral_color-900;
-  color: $neutral_color-white;
-}
 
 @media (max-width: 720px) {
   .btn-neutral-filled {
