@@ -204,8 +204,16 @@
   margin-bottom: $spacing-xl;
 }
 
+.mb-40 {
+  margin-bottom: $spacing-2xl;
+}
+
 .mb-48 {
   margin-bottom: $spacing-3xl;
+}
+
+.mb-64 {
+  margin-bottom: $spacing-5xl;
 }
 
 .ms-auto {
@@ -245,6 +253,10 @@
   
   .mb-md-32 {
     margin-bottom: $spacing-xl;
+  }
+
+  .mb-md-40 {
+    margin-bottom: $spacing-2xl;
   }
 
   .me-md-0 {
