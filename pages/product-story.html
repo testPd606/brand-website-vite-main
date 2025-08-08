@@ -7,27 +7,7 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <!-- 導覽列 -->
-    <nav class="container d-flex align-items-center py-16 py-sm-12">
-        <!-- 主選單 -->
-        <h1>
-            <a href="index.html" class="navigationBar-link me-48">
-                <img src="./imag/logo.svg" alt="LOGO">
-            </a>
-        </h1>
-        <ul class="d-flex align-items-center d-sm-none">
-            <li>
-                <a href="index.html" class="navigationBar-link d-block me-40 py-12">商品列表</a>
-            </li>
-            <li>
-                <a href="product-story.html" class="navigationBar-link d-block py-12">品牌故事</a>
-            </li>
-        </ul>
-        <!-- 會員登入 -->
-        <a href="#"  class="member-login">
-            <img src="./imag/person.svg" alt="會員登入">
-        </a>
-    </nav>
+    <%- include('./layout/header'); -%>
     <header class="header">
         <div class="container">
             <div class="pageTitle">
@@ -56,7 +36,7 @@
         <div class="container mb-48 mb-md-32">
             <div class="row mb-24 mb-md-16">
                 <div class="col-10 mx-auto col-md-4">
-                    <img src="./imag/about.png" alt="產品簡介">
+                    <img src="/assets/images/about.png" alt="產品簡介">
                 </div>
             </div>
             <div class="row">
@@ -131,39 +111,8 @@
             </div>
         </section>
     </main>
-    <!-- 呼籲行動 -->
-    <div class="pt-48 pt-md-24">
-        <div class="banner bg-primary-200">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center py-24">
-                    <h2 class="h4 me-24 h5-md me-md-16">加入會員取得 9 折優惠</h2>
-                    <button type="button" class="btn btn-dark">馬上註冊</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="bg-neutral-100 py-64 py-sm-32">
-        <!-- 次選單 -->
-        <nav class="container d-flex align-items-center mb-24 d-sm-block">
-            <a href="index.html" class="navigationBar-link d-block me-48 mb-sm-8">
-                <img src="./imag/logo.svg" alt="LOGO">
-            </a>
-            <ul class="d-flex align-items-center ms-auto d-sm-block ms-sm-12">
-                <li>
-                    <a href="index.html" class="navigationBar-link d-block me-40 py-12">商品列表</a>
-                </li>
-                <li>
-                    <a href="product-story.html" class="navigationBar-link d-block py-12">品牌故事</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- 版權 -->
-        <div class="container">
-            <div class="border-top-1 pt-32 text-center">
-                <p class="tw-paragraph-sm mb-4 text-neutral-600">Copyright ©2025 URBNSTYLE</p>
-                <p class="tw-paragraph-sm text-neutral-600">All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
 </body>  
 </html>
