@@ -2,13 +2,13 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: var(--spacing-s-burden);
-  margin-right: var(--spacing-s-burden);
+  margin-left: $spacing-s-burden;
+  margin-right: $spacing-s-burden;
 }
 
 [class*="col-"] {
-    padding-left: var(--spacing-s);
-    padding-right: var(--spacing-s);
+    padding-left: $spacing-s;
+    padding-right: $spacing-s;
 }
 
 .col {
@@ -59,8 +59,8 @@
 
 @media (max-width: 576px) {
   [class*="col-sm-"] {
-      padding-left: var(--spacing-xxs);
-      padding-right: var(--spacing-xxs);
+      padding-left: $spacing-xx;
+      padding-right: $spacing-xx;
   }
 
   .col-sm-2 {
