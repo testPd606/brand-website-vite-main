@@ -99,6 +99,14 @@
   font-size: $tw-paragraph-sm;
 }
 
+.display-1 {
+  font-size: $display-1-font-size;
+}
+
+.display-2 {
+  font-size: $display-2-font-size;
+}
+
 /* 字體顏色 */
 .text-neutral-white {
   color: $neutral_color-white;
@@ -122,14 +130,6 @@
 
 .text-danger-300 {
   color: $danger_color-300;
-}
-
-.display-1 {
-  font-size: $display-1-font-size;
-}
-
-.display-2 {
-  font-size: $display-2-font-size;
 }
 
 /* 字對齊方式 */
