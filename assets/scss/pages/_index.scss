@@ -1,7 +1,7 @@
 // 商品廣告
-.productBanner {
+.mainBanner {
     background: transparent url(/assets/images/banner.png) no-repeat center center / cover;
-    .productBanner-title {
+    .mainBanner-title {
         padding: 289px 0 288px 200px;
         h2 {
             font-size: $display-1-font-size;
@@ -19,9 +19,9 @@
 }
 
 @media (max-width: 720px) {
-    .productBanner {
+    .mainBanner {
         background-image: url(/assets/images/banner-sm.png);
-        .productBanner-title {
+        .mainBanner-title {
             padding: 155px 24px;
             h2 {
                 font-size: $display-2-font-size;
