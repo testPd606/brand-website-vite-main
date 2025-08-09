@@ -35,6 +35,10 @@
   .f-md-reverse-row {
     flex-direction: row-reverse;
   }
+
+  .f-md-noWrap {
+    flex-wrap: nowrap;
+  }
 }
 
 @media (max-width: 540px) {
