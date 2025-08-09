@@ -64,6 +64,7 @@
 
     .col-product-md-3 {
         width: 300px;
+        flex-shrink: 0;
         padding-left: $spacing-xs;
         padding-right: $spacing-xs;
     }
