@@ -55,16 +55,3 @@
         z-index: 10;
     }
 }
-
-@media (max-width: 720px) {
-    .row-product-md {
-        margin-left: $spacing-xs * -1;
-        margin-right: $spacing-xs * -1;
-    }
-
-    .col-product-md-3 {
-        width: 300px;
-        padding-left: $spacing-xs;
-        padding-right: $spacing-xs;
-    }
-}
