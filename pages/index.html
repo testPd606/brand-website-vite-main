@@ -9,7 +9,7 @@
   <body>
     <%- include('./layout/header'); -%>
     <main>
-        <div class="mb-64 mb-md-40">
+        <section class="mb-64 mb-md-40">
             <section class="productBanner">
                 <div class="productBanner-title">
                     <h2>URBNSTEP</h2>
@@ -17,7 +17,7 @@
                     <button class="btn btn-primary">立即選購</button>
                 </div>
             </section>
-        </div>
+        </section>
         <div class="container">
             <section class="mb-64 mb-md-40">
                 <div class="mb-32 mb-md-24">
@@ -25,29 +25,37 @@
                   <h3 class="h2 h4-md text-center">新品上市</h3>
                 </div>
             </section>
-            <div class="row f-wrap mb-64 mb-md-40">
-              <div class="col-6 mb-40 mb-md-24">
-                <img src="/assets/images/new-1.png" alt="新品上市" class="mb-12">
-                <h5 class="h5 mb-4">Monoverse</h5>
-                <p class="tw-label-md">NT$3,600</p>
-              </div>
-              <div class="col-6 mb-40 mb-md-24">
-                <img src="/assets/images/new-2.png" alt="新品上市" class="mb-12">
-                <h5 class="h5 mb-4">PLATFORM 404</h5>
-                <p class="tw-label-md">NT26,00</p>
-              </div>
-              <div class="col-6">
-                <img src="/assets/images/new-3.png" alt="新品上市" class="mb-12">
-                <h5 class="h5 mb-4">URBN Force</h5>
-                <p class="tw-label-md">NT$3,200</p>
-              </div>
-              <div class="col-6">
-                <img src="/assets/images/new-4.png" alt="新品上市" class="mb-12">
-                <h5 class="h5 mb-4">Mode90</h5>
-                <p class="tw-label-md">NT$4,000</p>
-              </div>
-            </div>
-            <div class="py-64 py-md-40">
+            <ul class="row f-wrap mb-64 mb-md-40">              
+                <li class="col-6 mb-40 mb-md-24">
+                  <a href="product-detailed.html">
+                    <img src="/assets/images/new-1.png" alt="新品上市" class="mb-12">
+                    <h5 class="h5 mb-4">Monoverse</h5>
+                    <p class="tw-label-md">NT$3,600</p>
+                  </a>
+                </li>
+              <li class="col-6 mb-40 mb-md-24">
+                <a href="product-detailed.html">
+                  <img src="/assets/images/new-2.png" alt="新品上市" class="mb-12">
+                  <h5 class="h5 mb-4">PLATFORM 404</h5>
+                  <p class="tw-label-md">NT26,00</p>
+                </a>
+              </li>
+              <li class="col-6">
+                <a href="product-detailed.html">
+                  <img src="/assets/images/new-3.png" alt="新品上市" class="mb-12">
+                  <h5 class="h5 mb-4">URBN Force</h5>
+                  <p class="tw-label-md">NT$3,200</p>
+                </a>
+              </li>
+              <li class="col-6">
+                <a href="product-detailed.html">
+                  <img src="/assets/images/new-4.png" alt="新品上市" class="mb-12">
+                  <h5 class="h5 mb-4">Mode90</h5>
+                  <p class="tw-label-md">NT$4,000</p>
+                </a>
+              </li>
+            </ul>
+            <section class="py-64 py-md-40">
               <h2 class="h2 h4-md mb-20">熱銷補貨</h2>
               <div class="row f-wrap row-product-md f-md-noWrap overflow-md-y">
                 <div class="col-3 col-product-md-3 f-md-shrink">
@@ -75,8 +83,11 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </section>
         </div>
+        <section class="py-48 py-md-24">
+
+        </section>
     </main>
     <%- include('./layout/footer'); -%>
 

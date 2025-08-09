@@ -1,4 +1,4 @@
-/* 間距 */
+// 間距
 .p-32 {
   padding: $spacing-xl;
 }
@@ -98,6 +98,11 @@
   .py-md-16 {
     padding-top: $spacing-m;
     padding-bottom: $spacing-m;
+  }
+
+  .py-md-24 {
+    padding-top: $spacing-l;
+    padding-bottom: $spacing-l;
   }
 
   .py-md-32 {
