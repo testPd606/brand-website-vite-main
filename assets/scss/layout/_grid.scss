@@ -1,4 +1,4 @@
-/* 網格系統 */
+// 基本格線系統
 .row {
   display: flex;
   margin-left: $spacing-s * -1;
@@ -81,4 +81,18 @@
   .col-sm-6 {
     width:calc(100%/4*2);
   }
+}
+
+// 其他商品行動版格線系統
+@media (max-width: 720px) {
+    .row-product-md {
+        margin-left: $spacing-xs * -1;
+        margin-right: $spacing-xs * -1;
+    }
+
+    .col-product-md-3 {
+        width: 300px;
+        padding-left: $spacing-xs;
+        padding-right: $spacing-xs;
+    }
 }
