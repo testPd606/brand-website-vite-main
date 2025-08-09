@@ -1,8 +1,8 @@
 /* 網格系統 */
 .row {
   display: flex;
-  margin-left: $spacing-s-burden;
-  margin-right: $spacing-s-burden;
+  margin-left: $spacing-s * -1;
+  margin-right: $spacing-s * -1;
 }
 
 [class*="col-"] {
@@ -66,8 +66,8 @@
 
 @media (max-width: 540px) {
   [class*="col-sm-"] {
-      padding-left: $spacing-xxs;
-      padding-right: $spacing-xxs;
+      padding-left: $spacing-xxs * 1.5;
+      padding-right: $spacing-xxs * 1.5;
   }
 
   .col-sm-2 {

@@ -1,14 +1,14 @@
 /* 商品詳情頁格線 */
 .row-detailed {
     display: flex;
-    margin-left: $spacing-xxxs-burden;
-    margin-right: $spacing-xxxs-burden;
+    margin-left: $spacing-xxs * -1;
+    margin-right: $spacing-xxs * -1;
 }
 
 .col-detailed-6 {
     width: calc(100%/12*6);
-    padding-left: $spacing-xxxs;
-    padding-right: $spacing-xxxs;
+    padding-left: $spacing-xxs;
+    padding-right: $spacing-xxs;
 }
 
 @media (max-width: 720px) {
@@ -59,13 +59,13 @@
 /* 尺寸 */
 .row-size {
     display: flex;
-    margin-left: $spacing-xxxs-burden;
-    margin-right: $spacing-xxxs-burden;
+    margin-left: $spacing-xxs * -1;
+    margin-right: $spacing-xxs * -1;
 }
 
 [class*="col-size-"] {
-    padding-left: $spacing-xxxs;
-    padding-right: $spacing-xxxs;
+    padding-left: $spacing-xxs;
+    padding-right: $spacing-xxs;
 }
 
 .col-size-4 {
@@ -87,7 +87,7 @@
     text-align: center;
     background-color: $neutral_color-white;
     border: 1px solid $neutral_color-300;
-    border-radius: $spacing-xxxs;
+    border-radius: $spacing-xxs;
     padding-top: $spacing-s;
     padding-bottom: $spacing-s;
     padding-left: $spacing-l;
@@ -103,7 +103,7 @@
 /* 加入收藏&門市預約試穿 */
 .shoppingButton {
     width: 100%;
-    border-radius: $spacing-xxxs;
+    border-radius: $spacing-xxs;
 }
 
 @media (max-width: 720px) {

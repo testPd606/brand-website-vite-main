@@ -8,8 +8,8 @@
 }
 
 .px-4 {
-  padding-left: $spacing-xxxs;
-  padding-right: $spacing-xxxs;
+  padding-left: $spacing-xxs;
+  padding-right: $spacing-xxs;
 }
 
 .pt-8 {
@@ -37,8 +37,8 @@
 }
 
 .py-4 {
-  padding-top: $spacing-xxxs;
-  padding-bottom: $spacing-xxxs;
+  padding-top: $spacing-xxs;
+  padding-bottom: $spacing-xxs;
 }
 
 .py-8 {
@@ -181,7 +181,7 @@
 }
 
 .mb-4 {
-  margin-bottom: $spacing-xxxs;
+  margin-bottom: $spacing-xxs;
 }
 
 .mb-8 {
@@ -230,8 +230,8 @@
 }
 
 .mx-4-burden {
-  margin-left: $spacing-xxxs-burden;
-  margin-right: $spacing-xxxs-burden;
+  margin-left: $spacing-xxs * -1;
+  margin-right: $spacing-xxs * -1;
 }
 
 @media (max-width: 720px) {
