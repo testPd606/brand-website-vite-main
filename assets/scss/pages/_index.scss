@@ -1,3 +1,4 @@
+// 商品廣告
 .productBanner {
     background: transparent url(/assets/images/banner.png) no-repeat center center / cover;
     .productBanner-title {
@@ -31,5 +32,26 @@
                 margin-bottom: $spacing-xl;
             }
         }
+    }
+}
+
+// 熱銷補貨
+.productCard {
+    display: block;
+    position: relative;
+    z-index: 1;
+    .productCard_text {
+        padding-top: $spacing-xs;
+        padding-bottom: $spacing-xs;
+        padding-left: $spacing-s;
+        padding-right: $spacing-s;
+        background-color: $primary_color-100;
+        font-size: $tw-label-sm;
+        font-weight: $tw-weight-500;
+        color: $primary_color-400;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10;
     }
 }
