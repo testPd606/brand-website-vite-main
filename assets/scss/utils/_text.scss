@@ -55,9 +55,16 @@
 }
 
 /* 字體樣式 */
-.tw-label-md {
-  font-size: $tw-label-md;
+[class*="tw-label-"] {
   font-weight: $tw-weight-500;
+}
+
+.tw-label-md {
+  font-size: $tw-label-md;  
+}
+
+.tw-label-sm {
+  font-size: $tw-label-sm;  
 }
 
 [class*="tw-paragraph-"] {
