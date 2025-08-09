@@ -1,5 +1,6 @@
 /* 文字 */
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .h4, .h5, .h6,
+.display-1, .display-2 {
   line-height: $tw-heading-line-height;
   font-weight: $tw-weight-700;
 }
@@ -26,6 +27,14 @@
 
 .h6 {
   font-size: $tw-headings-h6;
+}
+
+.display-1 {
+  font-size: $display-1-font-size;
+}
+
+.display-2 {
+  font-size: $display-2-font-size;
 }
 
 /* 字重*/
@@ -61,14 +70,6 @@
 
 .tw-paragraph-sm {
   font-size: $tw-paragraph-sm;
-}
-
-.display-1 {
-  font-size: $display-1-font-size;
-}
-
-.display-2 {
-  font-size: $display-2-font-size;
 }
 
 /* 字體顏色 */
