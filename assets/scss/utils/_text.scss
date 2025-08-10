@@ -59,6 +59,10 @@
   font-weight: $tw-weight-500;
 }
 
+.tw-label-lg {
+  font-size: $tw-label-lg;
+}
+
 .tw-label-md {
   font-size: $tw-label-md;  
 }
@@ -81,6 +85,32 @@
 
 .tw-paragraph-sm {
   font-size: $tw-paragraph-sm;
+}
+
+@media (max-width: 720px) {
+  .tw-md-label-lg {
+    font-size: $tw-label-lg;
+  }
+
+  .tw-md-label-md {
+    font-size: $tw-label-md;  
+  }
+
+  .tw-md-label-sm {
+    font-size: $tw-label-sm;  
+  }
+
+  .tw-md-paragraph-lg {
+    font-size: $tw-paragraph-lg;
+  }
+
+  .tw-md-paragraph-md {
+    font-size: $tw-paragraph-md;  
+  }
+
+  .tw-md-paragraph-sm {
+    font-size: $tw-paragraph-sm;
+  }
 }
 
 /* 字體顏色 */
