@@ -1,0 +1,18 @@
+// 定位
+.p-absolute {
+    position: absolute;
+}
+
+.p-relative {
+    position: relative;
+}
+
+@media (max-width: 720px) {
+    .p-md-absolute {
+        position: absolute;
+    }
+
+    .p-md-relative {
+        position: relative;
+    }
+}
