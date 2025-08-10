@@ -239,6 +239,11 @@
   margin-right: $spacing-xxs * -1;
 }
 
+.mx-24 {
+  margin-left: $spacing-l;
+  margin-right: $spacing-l;
+}
+
 @media (max-width: 720px) {
   .mb-md-0 {
     margin-bottom: 0;
@@ -282,6 +287,11 @@
 
   .ms-md-12 {
     margin-left: $spacing-s;
+  }
+
+  .mx-md-0 {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
