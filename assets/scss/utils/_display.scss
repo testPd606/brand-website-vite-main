@@ -32,6 +32,10 @@
     display: block;
   }
 
+  .f-md-direction-column {
+    flex-direction: column;
+  } ;
+
   .f-md-reverse-row {
     flex-direction: row-reverse;
   }
