@@ -52,8 +52,8 @@
 
 @media (max-width:720px) {
   .row-md {
-    margin-left: $spacing-xxs * -1;
-    margin-right: $spacing-xxs * -1;
+    margin-left: $spacing-xxs * -1.5;
+    margin-right: $spacing-xxs * -1.5;
   }
 
   [class*="col-md-"] {
