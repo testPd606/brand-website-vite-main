@@ -60,6 +60,46 @@
 .secondaryBanner {
     background: transparent url("/assets/images/banner-co-branded.png") no-repeat center center / cover;
     padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+// 裝飾
+.sb_star, .sb_sparkle {
+    position: absolute;
+    z-index: 10;
+}
+
+.sb_star {
+    top: 68px;
+    left: 348.5px;
+}
+
+// 點
+.indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    bottom: $spacing-xs;
+    transform: translateX(-50%);
+    li {
+        .btn-dot {
+            background-color: $neutral_color-white;
+            padding: 0;
+            width: $spacing-xs;
+            height: $spacing-xs;
+            border-radius: $spacing-m;
+        }
+        .btn-longer {
+            width: $spacing-l;
+            background-color: $neutral_color-600;
+        }
+        &:not(:last-child) {
+            margin-right: $spacing-xs;
+        }
+    }
 }
 
 @media (max-width: 720px) {
