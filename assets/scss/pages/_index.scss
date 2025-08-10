@@ -56,6 +56,18 @@
     }
 }
 
+// 次要廣告
+.secondaryBanner {
+    background: transparent url("/assets/images/banner-co-branded.png") no-repeat center center / cover;
+    padding: 100px 0;
+}
+
+@media (max-width: 720px) {
+    .secondaryBanner {
+        background-image: url("/assets/images/banner-co-branded-sm.png");
+    }
+}
+
 // 依樣式選購
 .productCard {
     position: relative;
