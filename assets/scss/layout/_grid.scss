@@ -1,4 +1,4 @@
-// 基本格線系統
+// 電腦版格線系統 / p-24px (L:12px / R:12px)
 .row {
   display: flex;
   margin-left: $spacing-s * -1;
@@ -50,15 +50,16 @@
   width: 100%;
 }
 
+// 平版格線系統 / p-24px (L:12px / R:12px)
 @media (max-width:720px) {
   .row-md {
-    margin-left: $spacing-xxs * -1.5;
-    margin-right: $spacing-xxs * -1.5;
+    margin-left: $spacing-s * -1;
+    margin-right: $spacing-s * -1;
   }
 
   [class*="col-md-"] {
-      padding-left: $spacing-xxs * 1.5;
-      padding-right: $spacing-xxs * 1.5;
+      padding-left: $spacing-s * 1;
+      padding-right: $spacing-s * 1;
   }
 
   .col-md-2 {
@@ -78,30 +79,86 @@
   }
 }
 
-@media (max-width: 540px) {
-  .col-sm-2 {
+// 平版格線系統 / p-12px (L:6px / R:6px)
+@media (max-width:720px) {
+  .row-12px-md {
+    margin-left: $spacing-xxs * -1.5;
+    margin-right: $spacing-xxs * -1.5;
+  }
+
+  [class*="col-12px-md-"] {
+      padding-left: $spacing-xxs * 1.5;
+      padding-right: $spacing-xxs * 1.5;
+  }
+
+  .col-12px-md-2 {
     width:calc(100%/4*2);
   }
 
-  .col-sm-4 {
+  .col-12px-md-4 {
     width: 100%;
   }
+}
 
-  .col-sm-6 {
+// 電腦版格線系統 / p-8px (L:4px / R:4px)
+  .row-8px {
+      margin-left: $spacing-xxs * -1.5;
+      margin-right: $spacing-xxs * -1.5;
+  }
+
+  [class*="col-8px-"] {
+      padding-left: $spacing-xxs * 1.5;
+      padding-right: $spacing-xxs * 1.5;
+  }
+
+  .col-8px-2 {
+    width:calc(100%/12*2);
+  }
+
+  .col-8px-4 {
+    width:calc(100%/12*4);
+  }
+
+  // .col-8px-6 {
+  //   width: calc(100%/12*6);
+  // }
+
+  // .col-8px-12 {
+  //   width: 100%;
+  // }
+
+// 平版格線系統 / p-8px (L:4px / R:4px)
+@media (max-width: 720px) {
+  .row-8px-md {
+      margin-left: $spacing-xxs * -1.5;
+      margin-right: $spacing-xxs * -1.5;
+  }
+
+  [class*="col-8px-md-"] {
+      padding-left: $spacing-xxs * 1.5;
+      padding-right: $spacing-xxs * 1.5;
+  }
+
+  .col-8px-md-2 {
     width:calc(100%/4*2);
+  }
+
+  .col-8px-md-4 {
+    width: 100%;
   }
 }
 
-// 其他商品行動版格線系統
-@media (max-width: 720px) {
-    .row-product-md {
-        margin-left: $spacing-xs * -1;
-        margin-right: $spacing-xs * -1;
-    }
 
-    .col-product-md-3 {
-        width: 300px;
-        padding-left: $spacing-xs;
-        padding-right: $spacing-xs;
-    }
-}
+// // 其他商品行動版格線系統
+// @media (max-width: 720px) {
+//     .row-product-md {
+//         margin-left: $spacing-xs * -1;
+//         margin-right: $spacing-xs * -1;
+//     }
+
+//     .col-product-md-3 {
+//         width: 300px;
+//         padding-left: $spacing-xs;
+//         padding-right: $spacing-xs;
+//     }
+// }
