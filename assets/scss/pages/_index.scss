@@ -1,7 +1,7 @@
 // 商品廣告
 .mainBanner {
     background: transparent url(/assets/images/banner.png) no-repeat center center / cover;
-    .mainBanner-title {
+    &-title {
         padding: 289px 0 288px 200px;
         h2 {
             font-size: $display-1-font-size;
@@ -21,7 +21,7 @@
 @media (max-width: 720px) {
     .mainBanner {
         background-image: url(/assets/images/banner-sm.png);
-        .mainBanner-title {
+        &-title {
             padding: 155px 24px;
             h2 {
                 font-size: $display-2-font-size;
@@ -40,7 +40,7 @@
     display: block;
     position: relative;
     z-index: 1;
-    .productCard_text {
+    &_text {
         padding-top: $spacing-xs;
         padding-bottom: $spacing-xs;
         padding-left: $spacing-s;
@@ -82,6 +82,24 @@
     }
 }
 
+@media (max-width: 720px) {
+    // 次要廣告行動版
+    .secondaryBanner {
+        background-image: url("/assets/images/banner-co-branded-sm.png");
+        padding: 64px 0;
+        // 裝飾行動版
+        .star-img {
+            top: 32px;
+            left: -20px;
+        }
+
+        .sparkle-img {
+            right: -28px;
+            bottom: 104px;
+        }   
+    }
+}
+
 // 點
 .indicators {
     display: flex;
@@ -109,24 +127,6 @@
     }
 }
 
-@media (max-width: 720px) {
-    // 次要廣告行動版
-    .secondaryBanner {
-        background-image: url("/assets/images/banner-co-branded-sm.png");
-        padding: 64px 0;
-        // 裝飾行動版
-        .star-img {
-            top: 32px;
-            left: -20px;
-        }
-
-        .sparkle-img {
-            right: -28px;
-            bottom: 104px;
-        }   
-    }
-}
-
 // 依樣式選購
 .productCard {
     position: relative;
@@ -143,7 +143,7 @@
         background-color: black;
         opacity: 0.4;
     }
-    .productCard_title {
+    &_title {
         position: absolute;
         z-index: 10;
         display: inline-block;
@@ -168,9 +168,19 @@
     }
 }
 
+@media (max-width: 960px) {
+    .productCard {
+        &_title {
+            h3, h4 {
+                font-size: $tw-headings-h5;
+            }
+        }
+    }
+}
+
 @media (max-width: 720px) {
     .productCard {
-        .productCard_title {
+        &_title {
             h3, h4 {
                 font-size: $tw-headings-h6;
             }
