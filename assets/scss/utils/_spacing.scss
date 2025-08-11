@@ -1,4 +1,4 @@
-// 間距
+// 間距-padding
 .p-32 {
   padding: $spacing-xl;
 }
@@ -34,6 +34,11 @@
 .px-4 {
   padding-left: $spacing-xxs;
   padding-right: $spacing-xxs;
+}
+
+.px-8 {
+  padding-left: $spacing-xs;
+  padding-right: $spacing-xs;
 }
 
 .py-4 {
@@ -165,6 +170,7 @@
   }
 }
 
+// 間距-margin
 .me-8 {
   margin-right: $spacing-xs;
 }
@@ -243,6 +249,11 @@
   margin-right: $spacing-xxs * -1;
 }
 
+.mx-8-burden {
+  margin-left: $spacing-xs * -1;
+  margin-right: $spacing-xs * -1;;
+}
+
 .mx-24 {
   margin-left: $spacing-l;
   margin-right: $spacing-l;
@@ -295,6 +306,16 @@
 
   .ms-md-12 {
     margin-left: $spacing-s;
+  }
+
+  .mx-4-md-burden {
+    margin-left: $spacing-xxs * -1;
+    margin-right: $spacing-xxs * -1;
+  }
+
+  .mx-8-md-burden {
+    margin-left: $spacing-xs * -1;
+    margin-right: $spacing-xs * -1;;
   }
 
   .mx-md-0 {
