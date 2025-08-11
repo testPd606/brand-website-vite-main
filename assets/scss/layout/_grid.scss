@@ -1,4 +1,4 @@
-// 電腦版格線系統 / p-24px (L:12px / R:12px)
+// 基礎版格線系統 / p-24px (L:12px / R:12px)
 .row {
   display: flex;
   margin-left: $spacing-s * -1;
@@ -48,6 +48,60 @@
 
 .col-12 {
   width: 100%;
+}
+
+// 電腦版格線系統 / p-24px (L:12px / R:12px)
+@media (max-width: 960px) {
+  .row-lg {
+    display: flex;
+    margin-left: $spacing-s * -1;
+    margin-right: $spacing-s * -1;
+  }
+  
+  [class*="col-lg-"] {
+      padding-left: $spacing-s;
+      padding-right: $spacing-s;
+  }
+  
+  .col-lg {
+    width: calc(100%/12);
+  }
+  
+  .col-lg-2 {
+    width: calc(100%/12*2);
+  }
+  
+  .col-lg-3 {
+    width: calc(100%/12*3);
+  }
+  
+  .col-lg-4 {
+    width: calc(100%/12*4);
+  }
+  
+  .col-lg-5 {
+    width: calc(100%/12*5);
+  }
+  
+  .col-lg-6 {
+    width: calc(100%/12*6);
+  }
+  
+  .col-lg-7 {
+    width: calc(100%/12*7);
+  }
+  
+  .col-lg-8 {
+    width: calc(100%/12*8);
+  }
+  
+  .col-lg-10 {
+    width: calc(100%/12*10);
+  }
+  
+  .col-lg-12 {
+    width: 100%;
+  }
 }
 
 // 平版格線系統 / p-24px (L:12px / R:12px)
