@@ -116,6 +116,10 @@
       padding-right: $spacing-s * 1;
   }
 
+  .col-md-auto {
+    width: auto;
+  }
+
   .col-md {
     width: calc(100%/12);
   }
