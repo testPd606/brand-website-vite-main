@@ -1,34 +1,3 @@
-/* 商品詳情頁格線 */
-.row-detailed {
-    display: flex;
-    margin-left: $spacing-xxs * -1;
-    margin-right: $spacing-xxs * -1;
-}
-
-.col-detailed-6 {
-    width: calc(100%/12*6);
-    padding-left: $spacing-xxs;
-    padding-right: $spacing-xxs;
-}
-
-@media (max-width: 720px) {
-    .container-md {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .row-md-detailed {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .col-md-detailed-12 {
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
 /* 價格 */
 .original-price {
     font-size: $tw-paragraph-sm;
@@ -57,27 +26,6 @@
 }
 
 /* 尺寸 */
-.row-size {
-    display: flex;
-    margin-left: $spacing-xxs * -1;
-    margin-right: $spacing-xxs * -1;
-}
-
-[class*="col-size-"] {
-    padding-left: $spacing-xxs;
-    padding-right: $spacing-xxs;
-}
-
-.col-size-4 {
-    width: calc(100%/12*4);
-}
-
-@media (max-width:960px) {
-    .col-lg-size-2 {
-        width: calc(100%/4*2);
-    }
-}
-
 .option-btn {
     width: 100%;
     font-size: $tw-label-md;
