@@ -7,11 +7,6 @@
   padding-left: $spacing-s;
 }
 
-.px-4 {
-  padding-left: $spacing-xxs;
-  padding-right: $spacing-xxs;
-}
-
 .pt-8 {
   padding-top: $spacing-xs;
 }
@@ -34,6 +29,11 @@
 
 .pb-48 {
   padding-bottom: $spacing-3xl;
+}
+
+.px-4 {
+  padding-left: $spacing-xxs;
+  padding-right: $spacing-xxs;
 }
 
 .py-4 {
