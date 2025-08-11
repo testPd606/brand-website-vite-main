@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URBNSTEP_商品詳情頁</title>
     <link rel="stylesheet" href="./css/main.css">
-  <script type="module" crossorigin src="/brand-website-vite-main/assets/main-DOJnS27C.js"></script>
-  <link rel="stylesheet" crossorigin href="/brand-website-vite-main/assets/main-BOX9iQim.css">
+  <script type="module" crossorigin src="/brand-website-vite-main/assets/main-DNo6_YwI.js"></script>
+  <link rel="stylesheet" crossorigin href="/brand-website-vite-main/assets/main-HcvkAglJ.css">
 </head>
 <body>
     <!-- 導覽列 -->
@@ -19,23 +19,23 @@
     </h1>
     <ul class="d-flex align-items-center d-sm-none">
         <li>
-            <a href="index.html" class="navigationBar-link d-block me-40 py-12">商品列表</a>
+            <a href="product-list.html" class="navigationBar-link d-block me-40 py-12">商品列表</a>
         </li>
         <li>
             <a href="product-story.html" class="navigationBar-link d-block py-12">品牌故事</a>
         </li>
     </ul>
     <!-- 會員登入 -->
-    <a href="#"  class="member-login">
+    <a href="login.html"  class="member-login">
         <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='16'%20height='16'%20fill='currentColor'%20class='bi%20bi-person'%20viewBox='0%200%2016%2016'%3e%3cpath%20d='M8%208a3%203%200%201%200%200-6%203%203%200%200%200%200%206m2-3a2%202%200%201%201-4%200%202%202%200%200%201%204%200m4%208c0%201-1%201-1%201H3s-1%200-1-1%201-4%206-4%206%203%206%204m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516%2010.68%2010.289%2010%208%2010s-3.516.68-4.168%201.332c-.678.678-.83%201.418-.832%201.664z'/%3e%3c/svg%3e" alt="會員登入">
     </a>
 </nav>    <main>
         <!-- 產品資訊 -->
         <div class="container container-md py-64 py-md-0">
-            <div class="row row-md-detailed">
+            <div class="row f-wrap row-md-detailed">
                 <div class="col-7 col-md-detailed-12 mb-md-24">
                     <!-- 商品列 -->
-                    <ul class="row-detailed row-md-detailed">
+                    <ul class="row-detailed f-wrap row-md-detailed">
                         <!-- 商品 -->
                         <li class="col-detailed-6 col-md-detailed-12 mb-8">
                             <a href="product-detailed.html">
@@ -148,7 +148,7 @@
                     <!-- 尺寸 -->
                     <div class="mb-48 mb-md-24">
                         <h4 class="tw-paragraph-md mb-8">尺寸</h4>
-                        <ul class="row-size mb-8">
+                        <ul class="row-size f-wrap mb-8">
                             <li class="col-size-4 col-lg-size-2 mb-8">
                                 <button class="option-btn active">35(22.5cm)</button>
                             </li>
@@ -229,9 +229,9 @@
         <!-- 暢銷商品 -->
         <div class="container py-48 py-md-40">
             <h2 class="h4 h5-md mb-16 bestSeller-title">你可能也喜歡...</h2>
-            <ul class="row row-md-bestSeller">
+            <ul class="row f-wrap row-product-md f-md-noWrap overflow-md-y">
                 <!-- 商品 -->
-                <li class="col-3 col-md-bestSeller">
+                <li class="col-3 col-product-md-3 f-md-shrink">
                     <a href="product-detailed.html">
                         <div class="mb-12">
                             <img src="/brand-website-vite-main/assets/product-2-B3VzoAng.png" alt="商品圖">
@@ -241,7 +241,7 @@
                     </a>
                 </li>
                 <!-- 商品 -->
-                <li class="col-3 col-md-bestSeller">
+                <li class="col-3 col-product-md-3 f-md-shrink">
                     <a href="product-detailed.html">
                         <div class="mb-12">
                             <img src="/brand-website-vite-main/assets/product-3-AxvEbKOW.png" alt="商品圖">
@@ -251,7 +251,7 @@
                     </a>
                 </li>
                 <!-- 商品 -->
-                <li class="col-3 col-md-bestSeller">
+                <li class="col-3 col-product-md-3 f-md-shrink">
                     <a href="product-detailed.html">
                         <div class="mb-12">
                             <img src="/brand-website-vite-main/assets/product-4-CqyUCYzf.png" alt="商品圖">
@@ -261,7 +261,7 @@
                     </a>
                 </li>
                 <!-- 商品 -->
-                <li class="col-3 col-md-bestSeller">
+                <li class="col-3 col-product-md-3 f-md-shrink">
                     <a href="product-detailed.html">
                         <div class="mb-12">
                             <img src="/brand-website-vite-main/assets/product-7-DJXgZGzn.png" alt="商品圖">
@@ -279,7 +279,7 @@
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center py-24">
                     <h2 class="h4 me-24 h5-md me-md-16">加入會員取得 9 折優惠</h2>
-                    <button type="button" class="btn btn-dark">馬上註冊</button>
+                    <button type="button" class="btn btn-dark" onclick="location.href='register.html'">馬上註冊</button>
                 </div>
             </div>
         </div>
@@ -292,10 +292,10 @@
             </a>
             <ul class="d-flex align-items-center ms-auto d-sm-block ms-sm-12">
                 <li>
-                    <a href="index.html" class="navigationBar-link d-block me-40 py-12">商品列表</a>
+                    <a href="../pages/product-list.html" class="navigationBar-link d-block me-40 py-12">商品列表</a>
                 </li>
                 <li>
-                    <a href="product-story.html" class="navigationBar-link d-block py-12">品牌故事</a>
+                    <a href="../pages/product-story.html" class="navigationBar-link d-block py-12">品牌故事</a>
                 </li>
             </ul>
         </nav>
