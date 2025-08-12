@@ -10,19 +10,21 @@
     <main>
         <div class="container">
             <div class="d-flex">
-                <picture class="me-24 me-md-0">
+                <!-- 登入註冊視覺 -->
+                <picture class="picture me-24 me-md-0">
                     <source srcset="/assets/images/login-sm.png" media="(max-width:540px)">
                     <img src="/assets/images/login.png" alt="登入註冊頁">
                 </picture>
-                <div class="">
-                    <section>
+                <!-- 登入註冊選項 -->
+                <section class="counter borderRadius-12 border-sm-0">
+                    <div>
                         <h2 class="h3 h4-sm text-center mb-32 mb-md-24">歡迎！</h2>
-                        <ul>
-                            <li><button type="button" class="btn">登入</button></li>
-                            <li><button type="button" class="btn">註冊</button></li>
+                        <ul class="switch d-flex">
+                            <li><button type="button" class="btn switch_button active">登入</button></li>
+                            <li><button type="button" class="btn switch_button">註冊</button></li>
                         </ul>
-                    </section>
-                </div>
+                    </div>
+                </section>
             </div>
         </div>
     </main>   
