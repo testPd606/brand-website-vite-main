@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>URBNSTEP_登入頁</title>
+    <title>URBNSTEP_登入註冊頁</title>
 </head>
 <body>
     <%- include('./layout/header'); -%>
+    <main>
+        <div class="container">
+            <div class="d-flex">
+                <picture class="me-24 me-md-0">
+                    <source srcset="/assets/images/login-sm.png" media="(max-width:540px)">
+                    <img src="/assets/images/login.png" alt="登入註冊頁">
+                </picture>
+                <div class="">
+                    <section>
+                        <h2 class="h3 h4-sm text-center mb-32 mb-md-24">歡迎！</h2>
 
-
-    
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>   
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
