@@ -15,10 +15,6 @@
   flex-wrap: wrap;
 }
 
-.f-grow-1 {
-  flex-grow: 1;
-}
-
 .align-items-center {
   align-items: center;
 }
@@ -64,10 +60,6 @@
     flex-shrink: 0;
   }
 
-  .f-md-grow {
-    flex-grow: 1;
-  }
-
   .justify-content-space-between-md {
     justify-content: space-between;
   }
@@ -105,10 +97,6 @@
   .f-sm-shrink {
     flex-shrink: 0;
   }
-
-  .f-sm-grow {
-    flex-grow: 1;
-  }  
 
   .justify-content-space-between-sm {
     justify-content: space-between;
