@@ -6,3 +6,9 @@
 .borderRadius-12 {
   border-radius: $radius-md;
 }
+
+@media (max-width: 540px) {
+  .borderRadius-sm-0 {
+    border-radius: 0;
+  }
+}

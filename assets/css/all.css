@@ -330,6 +330,11 @@ a:hover {
   border-radius: 12px;
 }
 
+@media (max-width: 540px) {
+  .borderRadius-sm-0 {
+    border-radius: 0;
+  }
+}
 /* 顯示屬性 */
 .d-none {
   display: none;
