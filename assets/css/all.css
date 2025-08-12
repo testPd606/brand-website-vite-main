@@ -886,6 +886,37 @@ a:hover {
   font-size: 3rem;
 }
 
+@media (max-width: 720px) {
+  .h2-md {
+    font-size: 2rem;
+  }
+  .h3-md {
+    font-size: 1.75rem;
+  }
+  .h4-md {
+    font-size: 1.5rem;
+  }
+  .h5-md {
+    font-size: 1.25rem;
+  }
+  .h6-md {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 540px) {
+  .h3-sm {
+    font-size: 1.75rem;
+  }
+  .h4-sm {
+    font-size: 1.5rem;
+  }
+  .h5-sm {
+    font-size: 1.25rem;
+  }
+  .h6-sm {
+    font-size: 1rem;
+  }
+}
 /* 字重*/
 .tw-weight-400 {
   font-weight: 400;
@@ -990,37 +1021,33 @@ a:hover {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
 @media (max-width: 720px) {
-  .h2-md {
-    font-size: 2rem;
+  .text-md-center {
+    text-align: center;
   }
-  .h3-md {
-    font-size: 1.75rem;
+  .text-md-right {
+    text-align: right;
   }
-  .h4-md {
-    font-size: 1.5rem;
-  }
-  .h5-md {
-    font-size: 1.25rem;
-  }
-  .h6-md {
-    font-size: 1rem;
+  .text-md-left {
+    text-align: left;
   }
 }
 @media (max-width: 540px) {
-  .h3-sm {
-    font-size: 1.75rem;
+  .text-sm-center {
+    text-align: center;
   }
-  .h4-sm {
-    font-size: 1.5rem;
+  .text-sm-right {
+    text-align: right;
   }
-  .h5-sm {
-    font-size: 1.25rem;
-  }
-  .h6-sm {
-    font-size: 1rem;
-  }
-  .text-md-left {
+  .text-sm-left {
     text-align: left;
   }
 }
