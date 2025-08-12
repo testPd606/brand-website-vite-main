@@ -1529,4 +1529,48 @@ a:hover {
   flex: 1 1 50%;
   padding: 120px 80px;
   background: transparent url("/assets/images/login-bg.png") no-repeat center center/cover;
+}
+@media (max-width: 960px) {
+  .counter {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+@media (max-width: 720px) {
+  .counter {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-image: none;
+    background-color: #FFFFFF;
+  }
+}
+
+.switch li {
+  flex: 1 1 50%;
+}
+.switch li button {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 1rem;
+  color: #6C757D;
+  font-weight: 700;
+  border-bottom: 2px solid #DEE2E6;
+}
+.switch li button.active {
+  color: #212529;
+  border-bottom-color: #212529;
+}
+
+.choose button {
+  width: 100%;
+  text-align: left;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #FFFFFF;
+  border: 1px solid #DEE2E6;
 }/*# sourceMappingURL=all.css.map */

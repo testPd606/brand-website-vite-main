@@ -8,4 +8,52 @@
     flex: 1 1 50%;
     padding: 120px 80px;
     background: transparent url("/assets/images/login-bg.png") no-repeat center center / cover;
+    @media (max-width: 960px) {
+        & {
+            padding-top: $spacing-6xl;
+            padding-bottom: $spacing-6xl;
+            padding-left: $spacing-5xl;
+            padding-right: $spacing-5xl;
+        }
+    }
+    @media (max-width: 720px) {
+        & {
+            padding-top: $spacing-xl;
+            padding-bottom: $spacing-xl;
+            padding-left: $spacing-s;
+            padding-right: $spacing-s;
+            background-image: none;
+            background-color: $neutral_color-white;
+        }
+    }
+}
+
+.switch {
+    li {
+        flex: 1 1 50%;
+        button {
+            width: 100%;
+            padding-left: $spacing-s;
+            padding-right: $spacing-s;
+            font-size: $tw-headings-h6;
+            color: $neutral_color-600;
+            font-weight: $tw-weight-700;
+            border-bottom: 2px solid $neutral_color-300;
+            &.active {
+                color: $neutral_color-900;
+                border-bottom-color: $neutral_color-900;
+            }
+        }
+    }
+}
+
+.choose {
+    button {
+        width: 100%;
+        text-align: left;
+        padding-left: $spacing-s;
+        padding-right: $spacing-s;
+        background-color: $neutral_color-white;
+        border: 1px solid $neutral_color-300;
+    }
 }
