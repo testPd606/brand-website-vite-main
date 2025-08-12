@@ -609,6 +609,11 @@ a:hover {
   padding-right: 8px;
 }
 
+.px-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .py-4 {
   padding-top: 4px;
   padding-bottom: 4px;
