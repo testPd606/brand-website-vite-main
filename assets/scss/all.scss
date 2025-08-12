@@ -6,6 +6,8 @@
 @import "./layout/grid";
 @import "./layout/header";
 @import "./layout/footer";
+@import "./components/breadcrumb";
+@import "./components/button";
 @import "./utils/background";
 @import "./utils/borders";
 @import "./utils/display";
@@ -14,8 +16,6 @@
 @import "./utils/sizing";
 @import "./utils/spacing";
 @import "./utils/text";
-@import "./components/breadcrumb";
-@import "./components/button";
 @import "./pages/index.scss";
 @import "./pages/product-list";
 @import "./pages/product-detailed";

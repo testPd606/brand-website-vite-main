@@ -296,6 +296,79 @@ a:hover {
   width: 18px;
 }
 
+/* 麵包屑 */
+.breadcrumb-items + .breadcrumb-items::before {
+  content: "/";
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #DEE2E6;
+}
+
+@media (max-width: 720px) {
+  .breadcrumb-items a {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .breadcrumb-items + .breadcrumb-items::before {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+/* 按鈕 */
+.btn {
+  background-color: transparent;
+  border: 0 none transparent;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+  display: block;
+}
+.btn:hover {
+  background-color: #F8F9FA;
+}
+
+.btn-primary {
+  background-color: #C0FA73;
+  color: #212529;
+}
+.btn-primary:hover {
+  background-color: #C0FA73;
+  color: #477A11;
+}
+
+.btn-dark {
+  background-color: #212529;
+  color: #FFFFFF;
+}
+.btn-dark:hover {
+  background-color: #495057;
+}
+
+.btn-white {
+  background-color: #FFFFFF;
+  border: 1px solid #212529;
+}
+.btn-white:hover {
+  background-color: #212529;
+  color: #FFFFFF;
+}
+
+@media (max-width: 720px) {
+  .btn-neutral-filled {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 /* 背景顏色 */
 .bg-primary-200 {
   background-color: #E8FEC5;
@@ -1049,79 +1122,6 @@ a:hover {
   }
   .text-sm-left {
     text-align: left;
-  }
-}
-/* 麵包屑 */
-.breadcrumb-items + .breadcrumb-items::before {
-  content: "/";
-  padding-left: 12px;
-  padding-right: 12px;
-  color: #DEE2E6;
-}
-
-@media (max-width: 720px) {
-  .breadcrumb-items a {
-    font-size: 0.875rem;
-    font-weight: 500;
-  }
-  .breadcrumb-items + .breadcrumb-items::before {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-}
-/* 按鈕 */
-.btn {
-  background-color: transparent;
-  border: 0 none transparent;
-  border-radius: 4px;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-  text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  cursor: pointer;
-  display: block;
-}
-.btn:hover {
-  background-color: #F8F9FA;
-}
-
-.btn-primary {
-  background-color: #C0FA73;
-  color: #212529;
-}
-.btn-primary:hover {
-  background-color: #C0FA73;
-  color: #477A11;
-}
-
-.btn-dark {
-  background-color: #212529;
-  color: #FFFFFF;
-}
-.btn-dark:hover {
-  background-color: #495057;
-}
-
-.btn-white {
-  background-color: #FFFFFF;
-  border: 1px solid #212529;
-}
-.btn-white:hover {
-  background-color: #212529;
-  color: #FFFFFF;
-}
-
-@media (max-width: 720px) {
-  .btn-neutral-filled {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }
 @media (max-width: 540px) {
