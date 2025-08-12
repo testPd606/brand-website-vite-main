@@ -445,6 +445,10 @@ a:hover {
   }
 }
 /* 尺寸 */
+.w-15 {
+  width: 15%;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -457,6 +461,9 @@ a:hover {
   .w-md-15 {
     width: 15%;
   }
+  .w-md-50 {
+    width: 50%;
+  }
   .w-md-100 {
     width: 100%;
   }
@@ -464,6 +471,9 @@ a:hover {
 @media (max-width: 540px) {
   .w-sm-15 {
     width: 15%;
+  }
+  .w-sm-50 {
+    width: 50%;
   }
   .w-sm-100 {
     width: 100%;
