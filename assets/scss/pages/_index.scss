@@ -1,3 +1,37 @@
+// 客製化導覽列 - 行動版
+@media (max-width: 540px) {
+    .container-mobile-custom {
+        padding: 0;
+        .nav-mobile-custom {
+            flex-wrap: wrap;
+            padding-bottom: 0;
+            h1 {
+                margin-right: 0;
+                padding-left: $spacing-s;
+            }
+        }
+        .menu {
+            display: flex;
+            order: 1;
+            width: 100%;
+            padding-top: $spacing-m * 0.8125;
+            & li {
+                flex: 1 1 50%;
+                text-align: center;
+            }
+            & li:first-child {
+                margin-right: 0;
+            }
+            .navigationBar-link.active {
+                background-color: $primary_color-200;
+            }
+        }
+        .member-login {
+            margin-right: $spacing-m * 0.8125;
+        }
+    }
+}
+
 // 商品廣告
 .mainBanner {
     background: transparent url(/assets/images/banner.png) no-repeat center center / cover;

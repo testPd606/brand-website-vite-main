@@ -16,3 +16,13 @@
     width: 100%;
   }
 }
+
+@media (max-width: 540px) {
+  .w-sm-15 {
+    width: 15%;
+  }
+
+  .w-sm-100 {
+    width: 100%;
+  }
+}

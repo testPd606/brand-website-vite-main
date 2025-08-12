@@ -1,14 +1,43 @@
 /* 表頭 */
-.navigationBar-link {
-  font-weight: $tw-weight-500;
-  text-decoration: none;
-}
-
-.member-login {
-  display: block;
-  padding: $spacing-s;
-  margin-left: auto;
-  img {
-    width: 18px;
+.nav {
+  display: flex;
+  align-items: center;
+  padding-top: $spacing-m;
+  padding-bottom: $spacing-m;
+  @media (max-width: 540px) {
+    padding-top: $spacing-m * 0.8125;
+    padding-bottom: $spacing-m * 0.8125;
+  }
+  h1 {
+    margin-right: $spacing-3xl;
+  }
+  .navigationBar-link {
+    display: block;
+    font-weight: $tw-weight-500;
+    text-decoration: none;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    .navigationBar-link {
+      padding-top: $spacing-s;
+      padding-bottom: $spacing-s;
+    }
+    li:first-child {
+      margin-right: $spacing-2xl;
+    }
+    @media (max-width: 540px) {
+      & {
+        display: none;
+      }
+    }
+  }
+  .member-login {
+    display: block;
+    padding: $spacing-s;
+    margin-left: auto;
+    img {
+      width: 18px;
+    }
   }
 }

@@ -169,9 +169,19 @@
 }
 
 @media (max-width: 540px) {
+  .p-sm-0 {
+    padding: 0;
+  }
+
   .p-sm-24 {
     padding: $spacing-l;
   }
+
+  .px-sm-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .px-sm-12 {
     padding-left: $spacing-s;
     padding-right: $spacing-s;
@@ -388,6 +398,10 @@
 
   .mb-sm-32 {
     margin-bottom: $spacing-xl;
+  }
+
+  .me-sm-0 {
+    margin-right: 0;
   }
 
   .me-sm-16 {
