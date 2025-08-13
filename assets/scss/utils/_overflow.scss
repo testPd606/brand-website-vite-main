@@ -1,9 +1,18 @@
-@media (max-width: 720px) {
-    .overflow-md-y {
-        overflow-y: scroll;
-    }
+// 溢出
+.overflow {
+    overflow: hidden;
+}
 
+.overflow-y {
+    overflow-y: scroll;
+}
+
+@media (max-width: 720px) {
     .overflow-md {
         overflow: hidden;
+    }
+
+    .overflow-md-y {
+        overflow-y: scroll;
     }
 }
