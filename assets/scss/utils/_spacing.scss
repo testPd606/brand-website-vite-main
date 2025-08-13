@@ -15,6 +15,10 @@
   padding-left: $spacing-s;
 }
 
+.pe-16 {
+  padding-right: $spacing-m;
+}
+
 .pt-8 {
   padding-top: $spacing-xs;
 }
@@ -119,6 +123,10 @@
 
   .pr-md-0 {
     padding-right: 0;
+  }
+
+  .pe-md-16 {
+    padding-right: $spacing-m;
   }
 
   .px-md-0 {
