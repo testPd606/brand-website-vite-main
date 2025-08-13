@@ -1,4 +1,8 @@
 // 間距-padding
+.p-12 {
+  padding: $spacing-s;
+}
+
 .p-32 {
   padding: $spacing-xl;
 }
@@ -97,6 +101,10 @@
 }
 
 @media (max-width: 720px) {
+  .p-md-12 {
+    padding: $spacing-s;
+  }
+
   .p-md-24 {
     padding: $spacing-l;
   }
@@ -176,6 +184,10 @@
 @media (max-width: 540px) {
   .p-sm-0 {
     padding: 0;
+  }
+
+  .p-sm-12 {
+    padding: $spacing-s;
   }
 
   .p-sm-24 {
