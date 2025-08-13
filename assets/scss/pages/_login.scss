@@ -3,7 +3,7 @@
     flex: 1 1 50%;
 }
 
-// 登入註冊選項
+// 登入註冊選項最層
 .counter {
     flex: 1 1 50%;
     padding: 120px 80px;
@@ -28,6 +28,7 @@
     }
 }
 
+// 選單切換 
 .switch {
     li {
         flex: 1 1 50%;
@@ -39,14 +40,23 @@
             color: $neutral_color-600;
             font-weight: $tw-weight-700;
             border-bottom: 2px solid $neutral_color-300;
-            &.active {
-                color: $neutral_color-900;
-                border-bottom-color: $neutral_color-900;
+            border-radius: 0;
+            &:hover {
+                color: $primary_color-500;
+            }
+        }
+        button.active {
+            color: $neutral_color-900;
+            border-bottom-color: $neutral_color-900;
+            &:hover {
+                color: $primary_color-500;
+                border-bottom-color: $primary_color-500;
             }
         }
     }
 }
 
+// 登入選項
 .choose {
     button {
         width: 100%;
@@ -54,6 +64,12 @@
         padding-left: $spacing-s;
         padding-right: $spacing-s;
         background-color: $neutral_color-white;
-        border: 1px solid $neutral_color-300;
+    }
+    button:hover {
+        color: $primary_color-500;
+        border-color: $primary_color-500;
+        & img {
+            transform: scale(90%);
+        }
     }
 }
