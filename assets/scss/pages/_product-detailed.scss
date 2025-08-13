@@ -60,6 +60,17 @@
     }
 }
 
+a.shoppingButton:hover {
+    background-color: $neutral_color-900;
+    color: $neutral_color-white;
+    @media (max-width: 720px) {
+        & {
+            background-color: $neutral_color-white;
+            color: $neutral_color-900;
+        }
+    }
+}
+
 @media (max-width: 720px) {
     .visually-hidden-button {
         height: 48px;
