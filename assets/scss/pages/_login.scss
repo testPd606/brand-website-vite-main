@@ -1,14 +1,21 @@
 // 登入註冊視覺
 .picture {
-    flex: 1 1 calc(100%/12*5);
-    & source, img {
+    flex: 0 0 calc(100%/12*5);
+    max-height: 589px;
+    & source {
         object-fit: cover;
+    }
+    & img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        display: block;
     }
 }
 
 // 登入註冊選項最層
 .counter {
-    flex: 1 1 calc(100%/12*7);
+    flex: 1 1 auto;
     padding: 120px 80px;
     background: transparent url("/assets/images/login-bg.png") no-repeat center center / cover;
     @media (max-width: 960px) {
@@ -40,6 +47,7 @@
             padding-left: $spacing-s;
             padding-right: $spacing-s;
             font-size: $tw-headings-h6;
+            line-height: $tw-heading-line-height;
             color: $neutral_color-600;
             font-weight: $tw-weight-700;
             border-bottom: 2px solid $neutral_color-300;

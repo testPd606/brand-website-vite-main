@@ -1,4 +1,8 @@
 /* 圓角 */
+.borderRadius-0 {
+  border-radius: 0;
+}
+
 .borderRadius-4 {
   border-radius: $radius-sm;
 }
@@ -7,8 +11,30 @@
   border-radius: $radius-md;
 }
 
+@media (max-width: 720px) {
+  .borderRadius-md-0 {
+    border-radius: 0;
+  }
+
+  .borderRadius-md-4 {
+    border-radius: $radius-sm;
+  }
+
+  .borderRadius-md-12 {
+    border-radius: $radius-md;
+  }
+}
+
 @media (max-width: 540px) {
   .borderRadius-sm-0 {
     border-radius: 0;
+  }
+
+  .borderRadius-sm-4 {
+    border-radius: $radius-sm;
+  }
+
+  .borderRadius-sm-12 {
+    border-radius: $radius-md;
   }
 }
