@@ -1,4 +1,9 @@
-/* 圓角 */
+// 框線
+.border {
+  border: 1px solid $neutral_color-900;
+}
+
+// 圓角
 .borderRadius-0 {
   border-radius: 0;
 }
