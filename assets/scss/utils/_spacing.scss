@@ -3,6 +3,10 @@
   padding: $spacing-s;
 }
 
+.p-16 {
+  padding: 16px;
+}
+
 .p-32 {
   padding: $spacing-xl;
 }
@@ -105,6 +109,10 @@
     padding: $spacing-s;
   }
 
+  .p-md-16 {
+    padding: 16px;
+  }
+
   .p-md-24 {
     padding: $spacing-l;
   }
@@ -188,6 +196,10 @@
 
   .p-sm-12 {
     padding: $spacing-s;
+  }
+
+  .p-sm-16 {
+    padding: 16px;
   }
 
   .p-sm-24 {
