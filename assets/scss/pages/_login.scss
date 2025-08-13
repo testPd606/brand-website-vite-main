@@ -1,11 +1,14 @@
 // 登入註冊視覺
 .picture {
-    flex: 1 1 50%;
+    flex: 1 1 calc(100%/12*5);
+    & source, img {
+        object-fit: cover;
+    }
 }
 
 // 登入註冊選項最層
 .counter {
-    flex: 1 1 50%;
+    flex: 1 1 calc(100%/12*7);
     padding: 120px 80px;
     background: transparent url("/assets/images/login-bg.png") no-repeat center center / cover;
     @media (max-width: 960px) {
