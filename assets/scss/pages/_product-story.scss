@@ -2,7 +2,7 @@
     border-bottom: 1px solid $neutral_color-300;
 }
 
-/* 表頭 */
+// 表頭
 .header {
     background: transparent url("/assets/images/hero.png") no-repeat center center / cover;
     text-align: center;
@@ -14,14 +14,12 @@
 }
 
 .pageTitle {
-    // padding: 151px 0;
     padding-top: $spacing-6xl * 1.8875;
     padding-bottom: $spacing-6xl * 1.8875;
     padding-left: 0;
     padding-right: 0;
     @media (max-width: 720px) {
         & {
-            // padding: 87px 0;
             padding-top: $spacing-6xl + 7;
             padding-bottom: $spacing-6xl + 7;
             padding-left: 0;
@@ -30,7 +28,7 @@
     }
 }
 
-/* 品牌歷程 */
+// 品牌歷程
 .history {
     list-style-type: disc;
     padding-left: $spacing-l;
@@ -41,12 +39,12 @@
     }
 }
 
-/* 品牌理念 */
+// 品牌理念
 .brandConcept-items {
     border-left: 3px solid $neutral_color-300;
 }
 
-/* 品牌小故事 */
+// 品牌小故事
 .brandStory-items {
     text-decoration: underline;
     text-underline-offset: $spacing-xs;
@@ -58,7 +56,7 @@
 }
 
 @media (max-width: 720px) {
-    /* 產品介紹標題行距 */
+    // 產品介紹標題行距
     .h6-md-story {
         font-size: $tw-headings-h6;
         line-height: $spacing-l;
