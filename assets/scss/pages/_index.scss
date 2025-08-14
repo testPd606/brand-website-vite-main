@@ -97,6 +97,12 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
+    @media (max-width: 720px) {
+        & {
+            background-image: url("/assets/images/banner-co-branded-sm.png");
+            padding: 64px 0;
+        }
+    }
     // 裝飾
     .star-img, .sparkle-img {
         position: absolute;
@@ -107,30 +113,24 @@
         width: 48px;
         top: 68px;
         left: calc(50% - 397px);
+        @media (max-width: 720px) {
+            & {
+                top: 32px;
+                left: -20px;
+            }
+        }
     }
 
     .sparkle-img {
         width: 76px;
         right: calc(50% - 357px);
         bottom: 132px;
-    }
-}
-
-@media (max-width: 720px) {
-    // 次要廣告行動版
-    .secondaryBanner {
-        background-image: url("/assets/images/banner-co-branded-sm.png");
-        padding: 64px 0;
-        // 裝飾行動版
-        .star-img {
-            top: 32px;
-            left: -20px;
+        @media (max-width: 720px) {
+            & {
+                right: -28px;
+                bottom: 104px;
+            }
         }
-
-        .sparkle-img {
-            right: -28px;
-            bottom: 104px;
-        }   
     }
 }
 
@@ -161,7 +161,7 @@
     }
 }
 
-// 依樣式選購
+// 依系列選購
 .productCard {
     position: relative;
     z-index: 1;
@@ -192,31 +192,34 @@
             line-height: $tw-heading-line-height;
             color: $neutral_color-white;
             margin-bottom: $spacing-xs;
+            &:hover {
+                color: $primary_color-300;
+            }
+            @media (max-width: 960px) {
+                & {
+                    font-size: $tw-headings-h5;
+                }
+            }
+            @media (max-width: 720px) {
+                & {
+                    font-size: $tw-headings-h6;
+                }
+            }
         }
         h4 {
             font-size: $tw-headings-h4;
             font-weight: $tw-weight-700;
             line-height: $tw-heading-line-height;
             color: $neutral_color-white;
-        }
-    }
-}
-
-@media (max-width: 960px) {
-    .productCard {
-        &_title {
-            h3, h4 {
-                font-size: $tw-headings-h5;
+            @media (max-width: 960px) {
+                & {
+                    font-size: $tw-headings-h5;
+                }
             }
-        }
-    }
-}
-
-@media (max-width: 720px) {
-    .productCard {
-        &_title {
-            h3, h4 {
-                font-size: $tw-headings-h6;
+            @media (max-width: 720px) {
+                & {
+                    font-size: $tw-headings-h6;
+                }
             }
         }
     }
