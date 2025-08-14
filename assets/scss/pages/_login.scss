@@ -55,13 +55,13 @@
             &:hover {
                 color: $primary_color-500;
             }
-        }
-        button.active {
-            color: $neutral_color-900;
-            border-bottom-color: $neutral_color-900;
-            &:hover {
-                color: $primary_color-500;
-                border-bottom-color: $primary_color-500;
+            &.active {
+                color: $neutral_color-900;
+                border-bottom-color: $neutral_color-900;
+                &:hover {
+                    color: $primary_color-500;
+                    border-bottom-color: $primary_color-500;
+                }
             }
         }
     }
@@ -75,12 +75,12 @@
         padding-left: $spacing-s;
         padding-right: $spacing-s;
         background-color: $neutral_color-white;
-    }
-    button:hover {
-        color: $primary_color-500;
-        border-color: $primary_color-500;
-        & img {
-            transform: scale(90%);
+        &:hover {
+            color: $primary_color-500;
+            border-color: $primary_color-500;
+            & img {
+                transform: scale(90%);
+            }
         }
     }
 }
