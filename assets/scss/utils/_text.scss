@@ -153,6 +153,32 @@
   }
 }
 
+@media (max-width: 540px) {
+  .tw-sm-label-lg {
+    font-size: $tw-label-lg;
+  }
+
+  .tw-sm-label-md {
+    font-size: $tw-label-md;  
+  }
+
+  .tw-sm-label-sm {
+    font-size: $tw-label-sm;  
+  }
+
+  .tw-sm-paragraph-lg {
+    font-size: $tw-paragraph-lg;
+  }
+
+  .tw-sm-paragraph-md {
+    font-size: $tw-paragraph-md;  
+  }
+
+  .tw-sm-paragraph-sm {
+    font-size: $tw-paragraph-sm;
+  }
+}
+
 /* 字體顏色 */
 .text-neutral-white {
   color: $neutral_color-white;
