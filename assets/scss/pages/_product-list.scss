@@ -1,4 +1,4 @@
-/* 主標題 */
+// 主標題
 .title {
     padding-top: $spacing-xs * 0.875;
     padding-bottom: $spacing-xs * 0.875;
@@ -10,12 +10,12 @@
     }
 }
 
-/* 商品選單 */
+// 商品選單
 .menu-link.active {
     color: $primary_color-400;
 }
 
-/* 分頁 */
+// 分頁
 .page-link {
     padding-top: $spacing-xs;
     padding-bottom: $spacing-xs;

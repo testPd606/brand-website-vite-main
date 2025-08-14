@@ -1,4 +1,4 @@
-/* 價格 */
+// 價格
 .original-price {
     font-size: $tw-paragraph-sm;
     font-weight: $tw-weight-400;
@@ -6,7 +6,7 @@
     color: $neutral_color-500;
 }
 
-/* 顏色 */
+// 顏色
 .product-color {
     width: $spacing-5xl;
     &-btn {
@@ -23,7 +23,7 @@
     }
 }
 
-/* 尺寸 */
+// 尺寸
 .option-btn {
     width: 100%;
     font-size: $tw-label-md;
@@ -46,7 +46,7 @@
     }
 }
 
-/* 加入收藏&門市預約試穿 */
+// 加入收藏&門市預約試穿
 .shoppingButton {
     width: 100%;
     border-radius: $spacing-xxs;
@@ -95,7 +95,7 @@ a.shoppingButton:hover {
     }
 }
 
-/* 商品說明 */
+// 商品說明
 .product-items {
     padding-top: $spacing-s;
     padding-bottom: $spacing-s;
@@ -106,7 +106,7 @@ a.shoppingButton:hover {
     }
 }
 
-/* 你可能也喜歡... */
+// 你可能也喜歡...
 .bestSeller-title {
     padding: 9.5px 0px;
     @media (max-width: 720px) {
