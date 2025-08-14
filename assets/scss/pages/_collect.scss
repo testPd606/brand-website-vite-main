@@ -2,6 +2,11 @@
 .cabinet {
     width: calc(636/1296*100%);
     margin: 0 auto;
+    .cabinet_list {
+        & > li {
+            border-bottom: 1px solid $neutral_color-300;
+        }
+    }
     @media (max-width: 720px) {
         & {
             width: 100%;

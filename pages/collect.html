@@ -26,32 +26,35 @@
                     </p>
                 </div>
                 <!-- 收藏列表 -->
-                <ul>
+                <ul class="cabinet_list">
                     <li class="pb-32 mb-32">
                         <a href="product-detailed.html" class="d-flex align-items-stretch overflow">
                             <div class="cabinet_list-box pe-16">
                                 <img src="/assets/images/product.png" alt="PLATFORM 404">
                             </div>
                             <ul class="cabinet_format">
-                                <li>
-                                    <h3 class="h5 h6-md mb-8">PLATFORM 404</h3>
-                                    <p class="tw-label-md tw-sm-label-sm mb-8">
+                                <li class="mb-8">
+                                    <h3 class="h5 h6-md">PLATFORM 404</h3>
+                                </li>
+                                <li class="mb-8">
+                                    <p class="tw-label-md tw-sm-label-sm">
                                         <span class="tw-paragraph-md tw-sm-paragraph-sm text-neutral-600 me-12">
                                             尺寸
                                         </span>
                                         38
-                                    </p>
-                                    <p class="tw-label-md tw-sm-label-sm mb-8">
+                                    </p> 
+                                </li>
+                                <li class="mb-8">
+                                    <p class="tw-label-md tw-sm-label-sm">
                                         <span class="tw-paragraph-md tw-sm-paragraph-sm text-neutral-600 me-12">
                                             顏色
                                         </span>
                                             Navy
                                     </p>
+                                </li>
+                                <li>
                                     <p class="h6 text-right text-md-left">NT$2,600</p>
                                 </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
                             </ul>
                         </a>
                     </li>
@@ -61,25 +64,28 @@
                                 <img src="/assets/images/product-4.png" alt="BOOMLOK">
                             </div>
                             <ul class="cabinet_format">
-                                <li>
-                                    <h3 class="h5 h6-md mb-8">BOOMLOK</h3>
-                                    <p class="tw-label-md tw-sm-label-sm mb-8">
+                                <li class="mb-8">
+                                    <h3 class="h5 h6-md">BOOMLOK</h3>                                   
+                                </li>
+                                <li class="mb-8">
+                                    <p class="tw-label-md tw-sm-label-sm">
                                         <span class="tw-paragraph-md tw-sm-paragraph-sm text-neutral-600 me-12">
                                             尺寸
                                         </span>
                                         38
                                     </p>
-                                    <p class="tw-label-md tw-sm-label-sm mb-8">
+                                </li>
+                                <li class="mb-8">
+                                    <p class="tw-label-md tw-sm-label-sm">
                                         <span class="tw-paragraph-md tw-sm-paragraph-sm text-neutral-600 me-12">
                                             顏色
                                         </span>
                                             White
                                     </p>
+                                </li>
+                                <li>
                                     <p class="h6 text-right text-md-left">NT$3,200</p>
                                 </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
                             </ul>
                         </a>
                     </li>
@@ -89,34 +95,60 @@
                                 <img src="/assets/images/product-3.png" alt="MELTY KISS">
                             </div>
                             <ul class="cabinet_format">
-                                <li>
-                                    <h3 class="h5 h6-md mb-8">MELTY KISS</h3>
-                                    <p class="tw-label-md tw-sm-label-sm mb-8">
+                                <li class="mb-8">
+                                    <h3 class="h5 h6-md">MELTY KISS</h3>                                 
+                                </li>
+                                <li class="mb-8">
+                                    <p class="tw-label-md tw-sm-label-sm">
                                         <span class="tw-paragraph-md tw-sm-paragraph-sm text-neutral-600 me-12">
                                             尺寸
                                         </span>
                                         38
                                     </p>
-                                    <p class="tw-label-md tw-sm-label-sm mb-8">
+                                </li>
+                                <li class="mb-8">
+                                    <p class="tw-label-md tw-sm-label-sm">
                                         <span class="tw-paragraph-md tw-sm-paragraph-sm text-neutral-600 me-12">
                                             顏色
                                         </span>
                                             Violet
                                     </p>
+                                </li>
+                                <li>
                                     <p class="h6 text-right text-md-left">NT$4,000</p>
                                 </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
                             </ul>
                         </a>
                     </li>
                 </ul>
+                <button class="btn btn-dark mx-auto">立即預約門市試穿</button>
             </section>
         </div>
     </main>
 
-    <%- include('./layout/footer'); -%>
+    <footer class="bg-neutral-100 py-64 py-sm-32">
+        <!-- 次選單 -->
+        <nav class="container d-flex align-items-center mb-24 d-sm-block">
+            <a href="index.html" class="navigationBar-link d-block me-48 mb-sm-8">
+                <img src="/assets/images/logo.svg" alt="LOGO">
+            </a>
+            <ul class="d-flex align-items-center ms-auto d-sm-block ms-sm-12">
+                <li>
+                    <a href="product-list.html" class="navigationBar-link d-block me-40 py-12">商品列表</a>
+                </li>
+                <li>
+                    <a href="product-story.html" class="navigationBar-link d-block py-12">品牌故事</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- 版權 -->
+        <div class="container">
+            <div class="copyright">
+                <p class="tw-paragraph-sm mb-4 text-neutral-600">Copyright ©2025 URBNSTYLE</p>
+                <p class="tw-paragraph-sm text-neutral-600">All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
 
     <script type="module" src="../main.js"></script>
 </body>
