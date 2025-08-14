@@ -1,19 +1,20 @@
-/* 麵包屑 */
+// 麵包屑
 .breadcrumb-items + .breadcrumb-items::before {
   content:"/";
   padding-left: $spacing-s;
   padding-right: $spacing-s;
   color: $neutral_color-300;
+  @media (max-width: 720px) {
+    .breadcrumb-items + .breadcrumb-items::before {
+      padding-left: $spacing-xs;
+      padding-right: $spacing-xs;
+    }
+  }
 }
 
 @media (max-width: 720px) {
   .breadcrumb-items a {
     font-size: $tw-label-sm;
     font-weight: $tw-weight-500;
-  }
-
-  .breadcrumb-items + .breadcrumb-items::before {
-    padding-left: $spacing-xs;
-    padding-right: $spacing-xs;
   }
 }
