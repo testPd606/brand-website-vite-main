@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBNSTEP_註冊頁</title>
+</head>
+<body>
+    <%- include('./layout/header'); -%>
+    <main>
+        <div class="container px-md-0">
+            <div class="d-flex f-md-direction-column align-items-stretch">
+                <!-- 登入註冊視覺圖案 -->
+                <picture class="picture me-24 me-md-0">
+                    <source srcset="/assets/images/login-sm.png" media="(max-width:540px)">
+                    <img src="/assets/images/login.png" alt="登入註冊頁" class=" borderRadius-12 borderRadius-md-0">
+                </picture>
+                <!-- 登入註冊介面 -->
+                <section class="counter borderRadius-12 borderRadius-md-0">
+                        <h2 class="h3 h4-sm text-center mb-32 mb-md-24">歡迎！</h2>
+                        <!-- 選單切換 -->
+                        <ul class="switch d-flex mb-32 mb-md-24">
+                            <li><button type="button" class="btn">登入</button></li>
+                            <li><button type="button" class="btn active">註冊</button></li>
+                        </ul>
+                        <!-- 登入選項 -->
+                        <ul class="choose">
+                            <li class="mb-8">
+                                <button class="btn">
+                                    <img src="/assets/images/facebook.svg" alt="Facebook" class="me-12">
+                                    Facebook 登入
+                                </button>
+                            </li>
+                            <li class="mb-8">
+                                <button class="btn">
+                                    <img src="/assets/images/apple.svg" alt="Apple" class="me-12">
+                                    Apple 登入
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn">
+                                    <img src="/assets/images/google.svg" alt="Google" class="me-12">
+                                    Google 登入
+                                </button>
+                            </li>
+                        </ul>
+                </section>
+            </div>
+        </div>
+    </main>   
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+</body>
+</html>
