@@ -24,5 +24,8 @@
     }
     .cabinet_format {
         flex: 1 1 auto;
+        & li p {
+            font-family: "Montserrat", "Noto Sans TC", sans-serif;
+        }
     }
 }
