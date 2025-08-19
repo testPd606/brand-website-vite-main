@@ -1,5 +1,5 @@
 // 客製化導覽列 - 行動版
-@media (max-width: 540px) {
+@include moblie {
     .container-mobile-custom {
         padding: 0;
         .nav-mobile-custom {
@@ -52,7 +52,7 @@
     }
 }
 
-@media (max-width: 720px) {
+@include pad {
     .mainBanner {
         background-image: url(/assets/images/banner-sm.png);
         &-title {
@@ -97,7 +97,7 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
-    @media (max-width: 720px) {
+    @include pad {
         & {
             background-image: url("/assets/images/banner-co-branded-sm.png");
             padding: 64px 0;
@@ -113,7 +113,7 @@
         width: 48px;
         top: 68px;
         left: calc(50% - 397px);
-        @media (max-width: 720px) {
+        @include pad {
             & {
                 top: 32px;
                 left: -20px;
@@ -125,7 +125,7 @@
         width: 76px;
         right: calc(50% - 357px);
         bottom: 132px;
-        @media (max-width: 720px) {
+        @include pad {
             & {
                 right: -28px;
                 bottom: 104px;
@@ -195,12 +195,12 @@
             &:hover {
                 color: $primary_color-300;
             }
-            @media (max-width: 960px) {
+            @include laptop {
                 & {
                     font-size: $tw-headings-h5;
                 }
             }
-            @media (max-width: 720px) {
+            @include pad {
                 & {
                     font-size: $tw-headings-h6;
                 }
@@ -211,15 +211,16 @@
             font-weight: $tw-weight-700;
             line-height: $tw-heading-line-height;
             color: $neutral_color-white;
-            @media (max-width: 960px) {
+            @include laptop {
                 & {
                     font-size: $tw-headings-h5;
                 }
             }
-            @media (max-width: 720px) {
+
+            @include pad {
                 & {
                     font-size: $tw-headings-h6;
-                }
+                }                
             }
         }
     }

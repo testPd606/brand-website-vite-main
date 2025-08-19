@@ -4,9 +4,11 @@
   align-items: center;
   padding-top: $spacing-m;
   padding-bottom: $spacing-m;
-  @media (max-width: 540px) {
-    padding-top: $spacing-m * 0.8125;
-    padding-bottom: $spacing-m * 0.8125;
+  @include moblie {
+    & {
+      padding-top: $spacing-m * 0.8125;
+      padding-bottom: $spacing-m * 0.8125;
+    }
   }
   h1 {
     margin-right: $spacing-3xl;
@@ -26,8 +28,8 @@
     li:first-child {
       margin-right: $spacing-2xl;
     }
-    @media (max-width: 540px) {
-      & {
+    @include moblie {
+     & {
         display: none;
       }
     }

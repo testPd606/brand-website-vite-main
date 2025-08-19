@@ -2,7 +2,7 @@
 .title {
     padding-top: $spacing-xs * 0.875;
     padding-bottom: $spacing-xs * 0.875;
-    @media (max-width: 720px) {
+    @include pad {
         & {
             padding-top: $spacing-xs * 1.1875;
             padding-bottom: $spacing-xs * 1.1875;

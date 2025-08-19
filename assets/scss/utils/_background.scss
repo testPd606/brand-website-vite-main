@@ -20,7 +20,7 @@
   background-color: $primary_color-500;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .bg-md-primary-100 {
     background-color: $primary_color-100;
   }
@@ -42,7 +42,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@include moblie {
   .bg-sm-primary-100 {
     background-color: $primary_color-100;
   }
@@ -105,7 +105,7 @@
   background-color: $neutral_color-900;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .bg-sm-neutral-white {
     background-color: $neutral_color-white;
   }

@@ -1,19 +1,19 @@
 // lg
-@mixin moblie {
+@mixin laptop{
     @media (max-width: 992px) {
         @content;
     }
 }
 
 // md
-@mixin pad {
+@mixin pad{
     @media (max-width: 768px) {
         @content;
     }
 }
 
 // sm
-@mixin moblie {
+@mixin moblie{
     @media (max-width: 576px) {
         @content;
     }

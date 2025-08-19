@@ -50,7 +50,7 @@
 .shoppingButton {
     width: 100%;
     border-radius: $spacing-xxs;
-    @media (max-width: 720px) {
+    @include pad {
         & {
             padding-left: $spacing-s;
             padding-right: $spacing-s;
@@ -63,7 +63,7 @@
 a.shoppingButton:hover {
     background-color: $neutral_color-900;
     color: $neutral_color-white;
-    @media (max-width: 720px) {
+    @include pad {
         & {
             background-color: $neutral_color-white;
             color: $neutral_color-900;
@@ -71,7 +71,7 @@ a.shoppingButton:hover {
     }
 }
 
-@media (max-width: 720px) {
+@include pad {
     .visually-hidden-button {
         height: 48px;
         border: 0 solid transparent;
@@ -109,7 +109,7 @@ a.shoppingButton:hover {
 // 你可能也喜歡...
 .bestSeller-title {
     padding: 9.5px 0px;
-    @media (max-width: 720px) {
+    @include pad {
         & {
             padding-top: $spacing-xs;
             padding-bottom: $spacing-xs;

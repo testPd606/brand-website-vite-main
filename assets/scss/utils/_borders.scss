@@ -16,7 +16,7 @@
   border-radius: $radius-md;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .borderRadius-md-0 {
     border-radius: 0;
   }
@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@include moblie {
   .borderRadius-sm-0 {
     border-radius: 0;
   }

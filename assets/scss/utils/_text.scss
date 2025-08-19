@@ -37,7 +37,7 @@
   font-size: $display-2-font-size;
 }
 
-@media (max-width:720px) {
+@include pad {
   .h2-md {
     font-size: $tw-headings-h2;
   }
@@ -59,7 +59,7 @@
   }
 }
 
-@media (max-width:540px) {
+@include moblie {
   .h3-sm {
     font-size: $tw-headings-h3;
   }
@@ -127,7 +127,7 @@
   font-size: $tw-paragraph-sm;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .tw-md-label-lg {
     font-size: $tw-label-lg;
   }
@@ -153,7 +153,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@include moblie {
   .tw-sm-label-lg {
     font-size: $tw-label-lg;
   }
@@ -221,7 +221,7 @@
   text-align: left;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .text-md-center {
     text-align: center;
   }
@@ -235,7 +235,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@include moblie {
   .text-sm-center {
     text-align: center;
   }

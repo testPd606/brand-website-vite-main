@@ -6,7 +6,7 @@
 .header {
     background: transparent url("/assets/images/hero.png") no-repeat center center / cover;
     text-align: center;
-    @media (max-width: 720px) {
+    @include pad {
         & {
             background-image: url("/assets/images/hero-sm.jpg");
         }
@@ -18,7 +18,7 @@
     padding-bottom: $spacing-6xl * 1.8875;
     padding-left: 0;
     padding-right: 0;
-    @media (max-width: 720px) {
+    @include pad {
         & {
             padding-top: $spacing-6xl + 7;
             padding-bottom: $spacing-6xl + 7;
@@ -55,7 +55,7 @@
     }
 }
 
-@media (max-width: 720px) {
+@include pad {
     // 產品介紹標題行距
     .h6-md-story {
         font-size: $tw-headings-h6;

@@ -51,7 +51,7 @@
 }
 
 // 電腦版格線系統 / p-24px (L:12px / R:12px)
-@media (max-width: 960px) {
+@include laptop {
   .row-lg {
     display: flex;
     margin-left: $spacing-s * -1;
@@ -105,67 +105,67 @@
 }
 
 // 平版格線系統 / p-24px (L:12px / R:12px)
-@media (max-width:720px) {
+@include pad {
   .row-md {
     margin-left: $spacing-s * -1;
     margin-right: $spacing-s * -1;
   }
-
+  
   [class*="col-md-"] {
       padding-left: $spacing-s * 1;
       padding-right: $spacing-s * 1;
   }
-
+  
   .col-md-auto {
     width: auto;
   }
-
+  
   .col-md {
     width: calc(100%/12);
   }
-
+  
   .col-md-2 {
     width: calc(100%/12*2);
   }
-
+  
   .col-md-3 {
     width: calc(100%/12*3);
   }
-
+  
   .col-md-4 {
     width: calc(100%/12*4);
   }
-
+  
   .col-md-5 {
     width: calc(100%/12*5);
   }
-
+  
   .col-md-6 {
     width: calc(100%/12*6);
   }
-
+  
   .col-md-7 {
     width: calc(100%/12*7);
   }
-
+  
   .col-md-8 {
     width: calc(100%/12*8);
   }
-
+  
   .col-md-10 {
     width: calc(100%/12*10);
   }
-
+  
   .col-md-12 {
     width: 100%;
   }
 }
 
 // 卡片幻燈片-平版
-@media (max-width: 720px) {
-    .card_slideshow-md {
-        width: 316px;
-        padding-left: $spacing-xs;
-        padding-right: $spacing-xs;
-    }
+@include pad {
+  .card_slideshow-md {
+      width: 316px;
+      padding-left: $spacing-xs;
+      padding-right: $spacing-xs;
+  }
 }

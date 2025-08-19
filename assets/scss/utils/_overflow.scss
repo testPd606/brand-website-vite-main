@@ -7,7 +7,7 @@
     overflow-y: scroll;
 }
 
-@media (max-width: 720px) {
+@include pad {
     .overflow-md {
         overflow: hidden;
     }

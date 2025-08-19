@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .w-md-15 {
     width: 15%;
   }
@@ -25,7 +25,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@include moblie {
   .w-sm-15 {
     width: 15%;
   }

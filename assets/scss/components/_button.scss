@@ -3,6 +3,7 @@
   background-color: transparent;
   border: 0 none transparent;
   border-radius: $spacing-xxs;
+  font-family: $global-font;
   font-size: $tw-label-md;
   font-weight: $tw-weight-500;
   line-height: $tw-label-line-height;
@@ -45,8 +46,7 @@
   }
 }
 
-
-@media (max-width: 720px) {
+@include pad {
   .btn-neutral-filled {
     padding-top: $spacing-xs;
     padding-bottom: $spacing-xs;

@@ -112,7 +112,7 @@
   padding-bottom: $spacing-5xl;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .p-md-12 {
     padding: $spacing-s;
   }
@@ -201,7 +201,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@include moblie {
   .p-sm-0 {
     padding: 0;
   }
@@ -350,7 +350,7 @@
   margin-right: $spacing-l;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .mb-md-0 {
     margin-bottom: 0;
   }
@@ -420,7 +420,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@include moblie {
   .mb-sm-8 {
     margin-bottom: $spacing-xs;
   }

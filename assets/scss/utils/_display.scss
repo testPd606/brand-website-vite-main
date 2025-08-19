@@ -47,7 +47,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 720px) {
+@include pad {
   .d-md-none {
     display: none;
   }
@@ -74,7 +74,7 @@
 
   .f-md-direction-column {
     flex-direction: column;
-  } ;
+  }
 
   .f-md-reverse-row {
     flex-direction: row-reverse;
@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@include moblie {
   .d-sm-none {
     display: none;
   }
