@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URBNSTEP_註冊頁</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <%- include('./layout/header'); -%>
     <main>
         <div class="container px-md-0">
             <div class="d-flex f-md-direction-column align-items-stretch">
-                <!-- 登入註冊視覺圖案 -->
-                <picture class="picture me-24 me-md-0">
+                <!-- 註冊視覺圖案 -->
+                <picture class="picture me-24 me-md-0" data-aos="zoom-in" data-aos-delay="100">
                     <source srcset="/assets/images/login-sm.png" media="(max-width:540px)">
                     <img src="/assets/images/login.png" alt="登入註冊頁" class=" borderRadius-12 borderRadius-md-0">
                 </picture>
-                <!-- 登入註冊介面 -->
+                <!-- 註冊介面 -->
                 <section class="counter borderRadius-12 borderRadius-md-0">
-                        <h2 class="h3 h4-sm text-center mb-32 mb-md-24">歡迎！</h2>
+                        <h2 class="h3 h4-sm text-center mb-32 mb-md-24" data-aos="zoom-in" data-aos-delay="200">歡迎！</h2>
                         <!-- 選單切換 -->
                         <ul class="switch d-flex mb-32 mb-md-24">
-                            <li><button type="button" class="btn" onclick="location.href='login.html'">登入</button></li>
-                            <li><button type="button" class="btn active">註冊</button></li>
+                            <li data-aos="zoom-in" data-aos-delay="300"><button type="button" class="btn" onclick="location.href='login.html'">登入</button></li>
+                            <li data-aos="zoom-in" data-aos-delay="400"><button type="button" class="btn active">註冊</button></li>
                         </ul>
-                        <!-- 登入選項 -->
+                        <!-- 註冊選項 -->
                         <ul class="choose">
-                            <li class="mb-8">
+                            <li class="mb-8" data-aos="zoom-in" data-aos-delay="500">
                                 <button class="btn">
                                     <img src="/assets/images/facebook.svg" alt="Facebook" class="me-12">
-                                    Facebook 登入
+                                    Facebook 註冊
                                 </button>
                             </li>
-                            <li class="mb-8">
+                            <li class="mb-8" data-aos="zoom-in" data-aos-delay="600">
                                 <button class="btn">
                                     <img src="/assets/images/apple.svg" alt="Apple" class="me-12">
-                                    Apple 登入
+                                    Apple 註冊
                                 </button>
                             </li>
-                            <li>
+                            <li data-aos="zoom-in" data-aos-delay="700">
                                 <button class="btn">
                                     <img src="/assets/images/google.svg" alt="Google" class="me-12">
-                                    Google 登入
+                                    Google 註冊
                                 </button>
                             </li>
                         </ul>
@@ -50,6 +51,7 @@
     </main>   
     <%- include('./layout/footer'); -%>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="../main.js"></script>
 </body>
 </html>
