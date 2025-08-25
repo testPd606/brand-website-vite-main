@@ -14,6 +14,10 @@
   pointer-events: none;
 }
 
+*:hover {
+  transition: all 0.3s ease;
+}
+
 body {
     font-family: $global-font;
     line-height: $tw-label-line-height;
@@ -30,11 +34,14 @@ img {
 a {
   color: $neutral_color-900;
   text-decoration: none;
+  &:hover {
+    color: $primary_color-500;    
+    img {
+      opacity: 0.8;
+    }
+  }
 }
 
-a:hover {
-  color: $primary_color-500;
-}
 
 /* 容器 */
 [class*="container"] {

@@ -9,17 +9,28 @@
 // 顏色
 .product-color {
     width: $spacing-5xl;
-    &-btn {
+    .product-color-btn {
         padding: 0;
         border: 0 solid transparent;
         background-color: transparent;
         cursor: pointer;
-    }
-    &-text {
-        font-size: $tw-label-md;
-        line-height: $tw-label-line-height;
-        text-align: center;
-        color: $neutral_color-600;
+        &:hover img {
+            opacity: 0.8;
+        }
+        .product-color-text {
+            font-size: $tw-label-md;
+            line-height: $tw-label-line-height;
+            text-align: center;
+            color: $neutral_color-600;
+        }
+        &.selected {
+            img {
+                border: 1px solid $neutral_color-900;
+            }
+            .product-color-text {
+                color: $neutral_color-900;
+            }
+        }
     }
 }
 
